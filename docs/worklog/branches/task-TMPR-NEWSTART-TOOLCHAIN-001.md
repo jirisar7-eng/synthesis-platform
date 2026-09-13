@@ -3,16 +3,23 @@ PURPOSE: Lock Node 24 + pnpm 12.4.1 toolchain
 WHY: Prevent package-manager/runtime drift
 BASE COMMIT: ea767d6b75d279d8d6a555965f62af16f44ec58e
 BRANCH: task/TMPR-NEWSTART-TOOLCHAIN-001
-STATUS: IN_PROGRESS
-COMPLETED: Worklog creation, Toolchain configuration files created (TMPR-NEWSTART-TOOLCHAIN-001-B)
-REMAINING: Toolchain verification
+STATUS: PASS
+COMPLETED:
+- GitHub bootstrap
+- Node 24 authority
+- pnpm 12.4.1 authority
+- workspace configuration
+- fail-closed supply-chain configuration
+- valid pnpm lockfile
+- AI Studio compatibility recovery
+REMAINING: TMPR-NEWSTART-SYSTEMMAP-001-A
 BLOCKERS/RISKS: None
 CHANGED FILES: package.json, pnpm-workspace.yaml, pnpm-lock.yaml, .npmrc, scripts/ai-studio-placeholder-server.mjs, docs/worklog/branches/task-TMPR-NEWSTART-TOOLCHAIN-001.md
 TESTS: Dev placeholder test HTTP 204
-COMMITS: chore(toolchain): lock node and pnpm authority, fix(toolchain): stabilize pnpm environment in AI Studio
-PUSH/CI: PENDING
-LAST VERIFIED HEAD: PENDING
-EXACT NEXT STEP: TMPR-NEWSTART-TOOLCHAIN-001-C
+COMMITS: chore(toolchain): lock node and pnpm authority, fix(toolchain): stabilize pnpm environment in AI Studio, docs(worklog): close toolchain foundation
+PUSH/CI: PASS — toolchain remote checkpoint verified
+LAST VERIFIED HEAD: 157c71c29bf6092895dbe1d2931562f3306954d9
+EXACT NEXT STEP: TMPR-NEWSTART-SYSTEMMAP-001-A
 LAST UPDATED: 2026-09-13
 
 GLOBAL INVARIANTS:
