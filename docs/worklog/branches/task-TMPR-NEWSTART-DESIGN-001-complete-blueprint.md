@@ -1,32 +1,13 @@
-TASK ID:
-TMPR-NEWSTART-DESIGN-001
-
-TITLE:
-Complete Táta má právo Design Blueprint
-
-PHASE:
-Design + System Map
-
-PURPOSE:
-Navrhnout kompletní budoucí podobu všech hlavních uživatelských,
-redakčních a administračních ploch před implementací runtime funkcí.
-
-WHY:
-Po dokončení musí být možné kdykoliv dohledat,
-kde který prvek je, jak vypadá, komu patří,
-co bude dělat a jak se později implementuje.
-
-BASE COMMIT:
-2081db7e73089af21fb4fee0b1d3444d8bf6ce6e
-
-BRANCH:
-task/TMPR-NEWSTART-DESIGN-001-complete-blueprint
-
-STATUS:
-IN_PROGRESS
+TASK ID: TMPR-NEWSTART-DESIGN-001
+TITLE: Complete Táta má právo Design Blueprint
+PHASE: Design + System Map
+PURPOSE: Navrhnout kompletní budoucí podobu všech hlavních uživatelských, redakčních a administračních ploch před implementací runtime funkcí.
+WHY: Po dokončení musí být možné kdykoliv dohledat, kde který prvek je, jak vypadá, komu patří, co bude dělat a jak se později implementuje.
+BASE COMMIT: 2081db7e73089af21fb4fee0b1d3444d8bf6ce6e
+BRANCH: task/TMPR-NEWSTART-DESIGN-001-complete-blueprint
+STATUS: IN_PROGRESS
 
 TODAY DESIGN SCOPE:
-
 A. BRAND FOUNDATION
 - Táta má právo visual identity
 - semantic brand tokens
@@ -144,7 +125,6 @@ Každý meaningful prvek musí mít podle relevance:
 - status
 
 DESIGN INVARIANTS:
-
 - mobile-first
 - tablet is first-class
 - desktop responsive, not separate product
@@ -172,8 +152,7 @@ DESIGN INVARIANTS:
 - Tiptap is rich-text editor surface, not content authority
 
 DESIGN MILESTONES:
-
-D1 — Screen & Surface Inventory
+D1 — Screen & Surface Inventory (COMPLETED)
 D2 — Brand + Theme Token Blueprint
 D3 — Global Shell + Navigation
 D4 — Public Portal Blueprint
@@ -187,18 +166,21 @@ D11 — Design consistency audit
 D12 — final blueprint checkpoint
 
 COMPLETED:
-- design task bootstrap only
+- design task bootstrap
+- D1: Vytvořen Screen & Surface Inventory (design-manifest.json, screen-inventory.json, coverage-matrix.md, README.md) v design/blueprint/v1/. Definováno >140 ploch, s plným typováním vlastností a metadat pro System Map. Prošel automatický validator.
 
 REMAINING:
-D1 through D12
+D2 through D12
 
 BLOCKERS/RISKS:
 None
 
 EXACT NEXT STEP:
-TMPR-NEWSTART-DESIGN-001-B
+TMPR-NEWSTART-DESIGN-001-C (D2: Brand + Theme Token Blueprint)
 
 WORKLOG CHECKPOINT
+- D1 Inventory vytvořeno
+- Validation úspěšná
+
 PUSH CHECKPOINT
-SYSTEM MAP CHECKPOINT
-NOTION CHECKPOINT
+- Proběhne push design manifestu a inventáře do remote větve task/TMPR-NEWSTART-DESIGN-001-complete-blueprint

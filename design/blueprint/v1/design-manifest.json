@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "projectKey": "tmpr",
+  "defaultLocale": "cs-CZ",
+  "strategy": {
+    "mobileFirst": true,
+    "tabletFirstClass": true,
+    "desktopResponsive": true,
+    "compactHomepage": true,
+    "compactFooter": true,
+    "contentAsData": true,
+    "presentationAsData": true,
+    "systemMapRequired": true
+  },
+  "apps": [
+    {
+      "appIdentity": "tmpr.public",
+      "ownerModuleKey": "mod.core.public",
+      "audience": "PUBLIC",
+      "authBoundary": "NONE",
+      "descriptionCs": "Veřejný portál a informační část projektu Táta má právo"
+    },
+    {
+      "appIdentity": "tmpr.account",
+      "ownerModuleKey": "mod.core.account",
+      "audience": "USER",
+      "authBoundary": "REQUIRED",
+      "descriptionCs": "Uživatelský účet, profil a nastavení"
+    },
+    {
+      "appIdentity": "tmpr.case",
+      "ownerModuleKey": "mod.core.case",
+      "audience": "USER",
+      "authBoundary": "REQUIRED",
+      "descriptionCs": "Osobní případ / CoParentHub"
+    },
+    {
+      "appIdentity": "synthesis.cms",
+      "ownerModuleKey": "mod.synthesis.cms",
+      "audience": "EDITOR",
+      "authBoundary": "REQUIRED",
+      "descriptionCs": "Redakční systém Synthesis CMS"
+    },
+    {
+      "appIdentity": "synthesis.admin",
+      "ownerModuleKey": "mod.synthesis.admin",
+      "audience": "ADMIN",
+      "authBoundary": "REQUIRED",
+      "descriptionCs": "Administrace platformy Synthesis"
+    },
+    {
+      "appIdentity": "synthesis.system",
+      "ownerModuleKey": "mod.synthesis.system",
+      "audience": "SYSTEM",
+      "authBoundary": "INTERNAL",
+      "descriptionCs": "Systémové stavy, chyby a offline UI"
+    }
+  ],
+  "areas": [],
+  "milestones": []
+}
