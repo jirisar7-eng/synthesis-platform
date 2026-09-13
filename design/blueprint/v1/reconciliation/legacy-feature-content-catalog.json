@@ -70,7 +70,10 @@
         "tmpr.public.help.sos"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "SOS krizový plán",
+      "canonicalCatalogId": "6a173cfb-44f5-4806-8956-1297f6cac77d"
     },
     {
       "catalogId": "b3336a00-0d80-4ae7-945c-e1c49b4e1e0f",
@@ -92,7 +95,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "krizové linky",
+      "canonicalCatalogId": "b3336a00-0d80-4ae7-945c-e1c49b4e1e0f"
     },
     {
       "catalogId": "3856c5e1-0a34-41dc-8fc8-e092307002d5",
@@ -114,7 +120,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "právní poradna",
+      "canonicalCatalogId": "3856c5e1-0a34-41dc-8fc8-e092307002d5"
     },
     {
       "catalogId": "213780df-8379-47f2-a344-49d142f1e04f",
@@ -254,7 +263,8 @@
         "synthesis.admin.content.registry"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "56ab184b-361e-4176-b5ad-8175b706a355",
@@ -350,7 +360,8 @@
         "tmpr.public.registry.map"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "b989a890-d54b-4c49-b8e2-55441248a94a",
@@ -451,13 +462,11 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [
-        "tmpr.public.registry.reviews",
-        "synthesis.cms.workflow.review",
-        "synthesis.cms.workflow.review.detail",
-        "synthesis.admin.content.reviews"
+        "tmpr.public.registry.reviews"
       ],
       "itemConfidence": "MEDIUM",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "331c09e5-4f14-48a7-bb45-2d1f1af197d8",
@@ -561,7 +570,10 @@
         "tmpr.public.memento"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Memento otců",
+      "canonicalCatalogId": "331c09e5-4f14-48a7-bb45-2d1f1af197d8"
     },
     {
       "catalogId": "9c5ab015-3d0c-46e6-8b99-1b0d76717eef",
@@ -633,7 +645,10 @@
         "tmpr.public.child.psychology"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "698f3f18-90ff-43be-94a3-e02c92ae4b50",
@@ -655,7 +670,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "a1ecf67a-dc27-46a4-a09a-643586ef6710",
@@ -701,7 +719,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "1d801300-ef0d-40ea-a7c9-b58a951419a6",
@@ -783,7 +804,8 @@
         "tmpr.public.knowledge.law-library"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "9f815ffc-da69-4539-8273-540da13df6d3",
@@ -796,7 +818,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "LOW",
-      "notesCs": "Žádná evidence, nutno rozhodnout."
+      "notesCs": "Žádná evidence, nutno rozhodnout.",
+      "representationKind": "PRODUCT_DECISION"
     },
     {
       "catalogId": "0830bf2f-aded-40f5-802e-ded85e8b653c",
@@ -818,7 +841,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "d03a0173-6fed-45e6-b524-aa4f0da2dfdf",
@@ -834,7 +858,8 @@
         "tmpr.public.knowledge.templates.detail"
       ],
       "itemConfidence": "LOW",
-      "notesCs": "Žádná evidence, nutno rozhodnout."
+      "notesCs": "Žádná evidence, nutno rozhodnout.",
+      "representationKind": "PRODUCT_DECISION"
     },
     {
       "catalogId": "a16b633d-449b-4d6b-974d-2f9a6a251330",
@@ -931,7 +956,8 @@
       ],
       "currentD1CandidateIds": [],
       "itemConfidence": "MEDIUM",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "abc38b2a-ccad-46af-8e50-6e0c3d078765",
@@ -946,7 +972,8 @@
         "tmpr.public.knowledge.glossary"
       ],
       "itemConfidence": "LOW",
-      "notesCs": "Žádná evidence, nutno rozhodnout."
+      "notesCs": "Žádná evidence, nutno rozhodnout.",
+      "representationKind": "PRODUCT_DECISION"
     },
     {
       "catalogId": "6cfe43f9-1f97-45ff-8caa-1e8f907b7af6",
@@ -961,7 +988,8 @@
         "tmpr.public.tools.calculator"
       ],
       "itemConfidence": "LOW",
-      "notesCs": "Žádná evidence, nutno rozhodnout."
+      "notesCs": "Žádná evidence, nutno rozhodnout.",
+      "representationKind": "PRODUCT_DECISION"
     },
     {
       "catalogId": "55cf9d74-9ec3-4b4f-bfac-39869853e90d",
@@ -995,7 +1023,8 @@
         "tmpr.case.ai.biff.result"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "DOMAIN_CAPABILITY"
     },
     {
       "catalogId": "69f5231c-5e21-46a2-9e78-03c43c3803a5",
@@ -1147,14 +1176,13 @@
         "Generátor podání"
       ],
       "currentD1CandidateIds": [
-        "tmpr.public.ai.biff.intro",
-        "tmpr.public.ai.generator.intro",
-        "tmpr.public.ai.simulator.intro",
-        "tmpr.public.ai.orion.intro",
-        "tmpr.account.verify-email"
+        "tmpr.public.ai.generator.intro"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "AI Control Center",
+      "canonicalCatalogId": "8bc7be80-b6a6-4694-bf33-43cf074a0ddc"
     },
     {
       "catalogId": "b3e3854c-0f0b-4bb5-bec2-3566bf05942a",
@@ -1245,7 +1273,8 @@
         "tmpr.case.ai.simulator.eval"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "DOMAIN_CAPABILITY"
     },
     {
       "catalogId": "d60cfbd4-6cf3-47a3-b4a4-26c5c54165c6",
@@ -1344,7 +1373,8 @@
         "tmpr.case.ai.orion.settings"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "DOMAIN_CAPABILITY"
     },
     {
       "catalogId": "416b85ab-77d4-4814-a90e-76a1fce744e8",
@@ -1386,7 +1416,8 @@
       ],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "d1c85c4c-8be7-42fc-bcc0-5926b6f12402",
@@ -1472,7 +1503,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "PLATFORM_CAPABILITY"
     },
     {
       "catalogId": "6c0977f2-45f7-467e-93b2-2c2288505f46",
@@ -1595,7 +1627,8 @@
         "synthesis.admin.pwa.assign"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "PLATFORM_CAPABILITY"
     },
     {
       "catalogId": "5d2db054-4221-4269-8373-ca3367fd4434",
@@ -1715,7 +1748,8 @@
         "synthesis.cms.pages.tree"
       ],
       "itemConfidence": "MEDIUM",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "PLATFORM_CAPABILITY"
     },
     {
       "catalogId": "05357bd6-d248-4eed-93e2-fc6a97c929b0",
@@ -1783,7 +1817,8 @@
         "synthesis.admin.rbac.matrix"
       ],
       "itemConfidence": "MEDIUM",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "PLATFORM_CAPABILITY"
     },
     {
       "catalogId": "d4dcb244-f06c-4cff-98f1-d5d64f2ff652",
@@ -1933,13 +1968,13 @@
       "aliases": [],
       "currentD1CandidateIds": [
         "tmpr.public.registry.landing",
-        "tmpr.public.child.psychology",
-        "tmpr.account.login",
-        "tmpr.account.passkey.login",
-        "tmpr.case.evidence"
+        "tmpr.account.passkey.login"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "c6292738-7b58-41b3-9a5d-5c9ef273ca14",
@@ -2038,7 +2073,8 @@
         "synthesis.admin.analytics.search"
       ],
       "itemConfidence": "MEDIUM",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "PLATFORM_CAPABILITY"
     },
     {
       "catalogId": "53b45d88-37b3-4466-aa86-0b4be9bbcc57",
@@ -2175,7 +2211,8 @@
         "synthesis.admin.ops.gate"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "PLATFORM_CAPABILITY"
     },
     {
       "catalogId": "8bc7be80-b6a6-4694-bf33-43cf074a0ddc",
@@ -2245,7 +2282,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "AI Control Center",
+      "canonicalCatalogId": "8bc7be80-b6a6-4694-bf33-43cf074a0ddc"
     },
     {
       "catalogId": "64ba07df-eece-4335-9b8a-0cf88334cd13",
@@ -2353,7 +2393,8 @@
         "synthesis.admin.brand.typography"
       ],
       "itemConfidence": "MEDIUM",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "PLATFORM_CAPABILITY"
     },
     {
       "catalogId": "7d9cae4c-e815-438a-9ba7-b6409671a4df",
@@ -2460,7 +2501,10 @@
         "synthesis.admin.team.association"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "bb79d31b-2f39-4b81-aa15-ac838df81050",
@@ -2482,7 +2526,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "206ee5fe-9120-4a2e-bc93-1118dbabb5f6",
@@ -2616,7 +2661,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "MEDIUM",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "DOMAIN_CAPABILITY"
     },
     {
       "catalogId": "52806d56-cd23-49bf-b845-4bb853425b8e",
@@ -2646,7 +2692,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "redakce/novinky",
+      "canonicalCatalogId": "52806d56-cd23-49bf-b845-4bb853425b8e"
     },
     {
       "catalogId": "08b3fe3b-f7e6-4ef6-aaf3-e20d225e0998",
@@ -2754,7 +2803,8 @@
         "synthesis.cms.help.editor"
       ],
       "itemConfidence": "HIGH",
-      "notesCs": "Zpracováno z evidence."
+      "notesCs": "Zpracováno z evidence.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "ea8108e9-57da-4cca-a07f-28c7c1552b91",
@@ -2774,9 +2824,12 @@
         }
       ],
       "aliases": [],
-      "currentD1CandidateIds": [],
+      "currentD1CandidateIds": [
+        "tmpr.public.home"
+      ],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "ffbdde13-34b5-46a9-b6dd-f77fdb203e6b",
@@ -2798,7 +2851,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "47f2716e-d3a9-4293-b05d-8ddf7e591a43",
@@ -2820,7 +2876,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "45156fa2-83d3-46be-8695-8fcc8d25030e",
@@ -2842,7 +2901,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE",
+      "canonicalRouteIntent": "Public page: support",
+      "canonicalCatalogId": "1bc102bd-dd78-48c5-aa52-7b4d30e870b0"
     },
     {
       "catalogId": "1bc102bd-dd78-48c5-aa52-7b4d30e870b0",
@@ -2864,7 +2926,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Public page: podpora",
+      "canonicalCatalogId": "45156fa2-83d3-46be-8695-8fcc8d25030e"
     },
     {
       "catalogId": "a97c4d23-039d-4bc8-9619-ae2964d56dbc",
@@ -2886,7 +2951,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE",
+      "canonicalRouteIntent": "Public page: rights",
+      "canonicalCatalogId": "b992585b-7bb4-48b4-a95d-1396eaf45c42"
     },
     {
       "catalogId": "b992585b-7bb4-48b4-a95d-1396eaf45c42",
@@ -2908,7 +2976,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Public page: prava",
+      "canonicalCatalogId": "a97c4d23-039d-4bc8-9619-ae2964d56dbc"
     },
     {
       "catalogId": "3c242994-13e0-46ef-92ad-f78b9ef36cd3",
@@ -2930,7 +3001,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "176f05ae-4f87-42e3-82ea-41251ed99710",
@@ -2952,7 +3026,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "2d762d95-598f-4c4c-84dc-8b8930d75587",
@@ -2974,7 +3051,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "95689044-99e6-49c8-bf69-1ec1e3565a73",
@@ -2996,7 +3074,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "84983c57-35c4-4647-9693-651c5d24a11f",
@@ -3018,7 +3097,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "5301f59d-4fdc-46e9-9bed-af024352b638",
@@ -3040,7 +3120,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "2480ab5a-6b3a-4264-a6ea-130e5d8426a3",
@@ -3062,7 +3143,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "818fe7da-10d7-456a-b28f-37094ca66c4f",
@@ -3084,7 +3166,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "7dec399c-59a6-426f-b51a-f20adc22736e",
@@ -3106,7 +3191,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "6249f589-3aab-4b72-b998-8cd85ffb3b32",
@@ -3128,7 +3216,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "43f00ab1-ecf8-4d1c-9023-deb3626f3c11",
@@ -3150,7 +3241,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "3f230216-4635-487e-92f4-c1e0925d6464",
@@ -3172,7 +3266,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "bf048585-e11a-4731-805e-812ded330a0c",
@@ -3194,7 +3291,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "a64e122d-8cf2-4236-8924-d60e6532d9bb",
@@ -3216,7 +3316,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "753533bb-00fc-4f8e-bd3b-73e9736b445e",
@@ -3238,7 +3341,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "96b967fc-2420-48fb-94d0-a5f38c1ffda3",
@@ -3260,7 +3366,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "62d85f75-4af3-4428-ac80-f83dcf1c33f8",
@@ -3282,7 +3391,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "a2a192e8-9e9e-497e-9b74-c728443a92c2",
@@ -3304,7 +3416,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "41634ac5-2152-449e-ae6e-db63b7034e84",
@@ -3326,7 +3441,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "777b8c4c-2eb2-40ae-a0d6-485f918bce8b",
@@ -3348,7 +3466,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "a37a6340-3539-4148-a907-a552130f4ded",
@@ -3370,7 +3491,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "360fd687-0c90-4f41-879b-f8d4acd2897d",
@@ -3392,7 +3516,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "a2a0c298-b5c0-4ad2-9fe5-ffdd5dcd78dd",
@@ -3414,7 +3541,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "33573eae-fd82-48e6-a2f9-1953ffdb3648",
@@ -3436,7 +3566,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "f148f346-e709-4a79-b089-8e954345ddd5",
@@ -3458,7 +3591,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "f965c2f7-be53-4c9d-8cb3-aec04c89fd8d",
@@ -3480,7 +3616,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "8e315109-3d14-4e58-b9c9-426afdfe0396",
@@ -3502,7 +3641,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "3b9326e6-f5d5-42be-b620-ebf792284985",
@@ -3524,7 +3666,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "f0c04cbe-5a5d-4a46-a6d5-f2062a19b7fb",
@@ -3546,7 +3691,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "9a5326fb-2f08-4183-9f87-3b6ee66a1f09",
@@ -3568,7 +3716,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "7e34364d-8578-4ea0-9e73-4b4440a197de",
@@ -3590,7 +3741,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "245256d4-94fa-49a1-b93b-164d9342ac3a",
@@ -3612,7 +3766,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "44eb3d4e-0e0f-4c04-aad9-d68aa347b975",
@@ -3634,7 +3791,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "b3da5195-9dc2-4707-9808-fbc411b23850",
@@ -3656,7 +3816,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "e43c8b7d-42fa-4c1f-85f2-cbe34870b600",
@@ -3678,7 +3841,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "6cc93bc3-1090-41fb-a0e4-abbecec46f4e",
@@ -3700,7 +3866,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "eeaee8c3-89ba-4c8a-98a7-406898c9c63b",
@@ -3722,7 +3891,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "f96cba4c-62db-4da8-9c22-eb717339b991",
@@ -3744,7 +3916,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "OSPOD_GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "29e5e047-e33c-4e71-a22e-3fbb23f08c53",
@@ -3766,7 +3941,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "a2553abe-e854-4ccc-b228-4b21b90be5e8",
@@ -3788,7 +3966,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "68fc86ca-5c89-498d-a2eb-d9886770bd63",
@@ -3810,7 +3991,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "3de16976-8f5c-4668-9351-0ef90089cde8",
@@ -3832,7 +4016,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "9afe0dfe-b208-4b1b-b6c6-8b526959e79f",
@@ -3854,7 +4041,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "GUIDE",
+      "requiredTemplateIntent": "ARTICLE_DETAIL"
     },
     {
       "catalogId": "7d15af62-69be-4aec-82bd-2941f21ff8a3",
@@ -3876,7 +4066,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "5b4f575d-5dcd-4b2b-89a6-8c3b04dfddf8",
@@ -3898,7 +4089,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "7f33417c-f46f-4ac8-ab74-6a1f8744cf54",
@@ -3920,7 +4112,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "3f086e94-930d-4971-ae7e-ae5cc2c91190",
@@ -3942,7 +4135,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "b3899e26-2c29-4ca8-9a75-92afb08a8691",
@@ -3964,7 +4158,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "1b40fc0c-cda9-4fe8-8e75-08f1f907b83a",
@@ -3986,7 +4181,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "6056e7a1-81c9-44a0-b2c7-2cea042d3d18",
@@ -4008,7 +4204,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "615a376b-ed65-43dd-bfe2-953a9310f14d",
@@ -4030,7 +4229,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "73de0614-1aa5-48c3-a708-ed746a00f24b",
@@ -4052,7 +4252,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "2e16e2a9-0546-4796-9cb3-b5dba3496762",
@@ -4074,7 +4275,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "33c32ceb-8473-42ec-b95e-44edfa1d824c",
@@ -4096,7 +4298,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "a16099fd-a74c-4a0d-97a3-fd33149006b3",
@@ -4118,7 +4321,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "redakce/novinky",
+      "canonicalCatalogId": "52806d56-cd23-49bf-b845-4bb853425b8e"
     },
     {
       "catalogId": "5203960e-a612-4d5a-9c6d-bcef38da9a92",
@@ -4140,7 +4346,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "6f2f797b-f224-47e7-95d7-d7a4282ec107",
@@ -4162,7 +4369,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "adec9099-b810-4249-b0e2-2c77454f2cd9",
@@ -4184,7 +4392,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "5ff72591-b717-4d90-8633-920f86d48b5d",
@@ -4206,7 +4417,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "81fb22ba-4897-4d15-b503-b4032baa240f",
@@ -4228,7 +4442,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "446a8cec-5a97-4361-ba21-a936971c0f2e",
@@ -4250,7 +4467,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Homepage",
+      "canonicalCatalogId": "ea8108e9-57da-4cca-a07f-28c7c1552b91"
     },
     {
       "catalogId": "e5ebae1d-5fea-416f-a449-6fa9cdaa0651",
@@ -4272,7 +4492,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Homepage",
+      "canonicalCatalogId": "ea8108e9-57da-4cca-a07f-28c7c1552b91"
     },
     {
       "catalogId": "b7a83128-f13f-413b-878c-4f9d383fda7a",
@@ -4294,7 +4517,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "redakce/novinky",
+      "canonicalCatalogId": "52806d56-cd23-49bf-b845-4bb853425b8e"
     },
     {
       "catalogId": "a699b76b-8235-4038-8e0f-b0c87e3ea857",
@@ -4316,7 +4542,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "afa2e8de-1e57-4e7b-a2e3-6bb76eef4699",
@@ -4338,7 +4567,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Public page: about",
+      "canonicalCatalogId": "afa2e8de-1e57-4e7b-a2e3-6bb76eef4699"
     },
     {
       "catalogId": "6099eadc-d625-4754-9322-c8cd5696bdfc",
@@ -4360,7 +4592,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Public page: about",
+      "canonicalCatalogId": "afa2e8de-1e57-4e7b-a2e3-6bb76eef4699"
     },
     {
       "catalogId": "5911b64c-306c-4238-97b7-33a6cf55fda0",
@@ -4382,7 +4617,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "ROUTE_ALIAS",
+      "canonicalRouteIntent": "Public page: about",
+      "canonicalCatalogId": "afa2e8de-1e57-4e7b-a2e3-6bb76eef4699"
     },
     {
       "catalogId": "3ec63b36-6218-49f5-9966-6558af71eadc",
@@ -4404,7 +4642,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "7112e905-af9c-43d7-a17a-5fd837a6ffcf",
@@ -4426,7 +4665,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "30bdef30-5f02-4766-abf1-7e0745655623",
@@ -4448,7 +4690,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "116a7615-3b04-4914-878a-be4ed1981a32",
@@ -4470,7 +4715,8 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "UNIQUE_SURFACE"
     },
     {
       "catalogId": "70e2dd65-e643-4c53-a1fa-1cb2b599e763",
@@ -4492,7 +4738,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     },
     {
       "catalogId": "5dc345d8-12a3-444a-8d51-31444dc6faf0",
@@ -4514,7 +4763,10 @@
       "aliases": [],
       "currentD1CandidateIds": [],
       "itemConfidence": "HIGH",
-      "notesCs": "Veřejná stránka z mapy."
+      "notesCs": "Veřejná stránka z mapy.",
+      "representationKind": "CONTENT_INSTANCE",
+      "contentFamily": "STATIC_INFO",
+      "requiredTemplateIntent": "STANDARD_CONTENT_PAGE"
     }
   ]
 }

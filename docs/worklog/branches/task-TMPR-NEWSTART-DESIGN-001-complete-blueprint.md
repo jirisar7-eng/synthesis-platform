@@ -165,18 +165,18 @@ D10 — Mobile/Tablet/Desktop QA
 D11 — Design consistency audit
 D12 — final blueprint checkpoint
 
-COMMAND ID: TMPR-NEWSTART-DESIGN-001-B0-B-R01
-RECOVERY REASON: Independent review found non-deterministic refs, incorrect classification and false-positive D1 matching.
-B0-B STATUS: RECOVERED_PASS
+COMMAND ID: TMPR-NEWSTART-DESIGN-001-B0-B-R02
+RECOVERY REASON: Further semantic analysis required for 102 public URLs to separate UNIQUE_SURFACE, CONTENT_INSTANCE and ROUTE_ALIAS types properly and ensure 0 semantic negative test failures.
+B0-B STATUS: FULLY_RECOVERED_PASS
 D1 STATUS: CHECKPOINT_SAVED_NOT_FINAL
 
 COMPLETED:
 - exact legacy SHA evidence
 - evidence type correction
 - meaningful type/area classification
-- public URL accountability
-- legacy route/page accountability
-- semantic D1 candidate matching
+- full 102 public URL accountability (0 PRODUCT_DECISION left)
+- legacy route/page accurate type (34 UNIQUE, 51 CONTENT, 17 ALIAS)
+- strict semantic D1 candidate negative testing (0 false matches)
 - false-positive removal
 - source report hardening
 
@@ -189,7 +189,7 @@ EXACT NEXT STEP:
 TMPR-NEWSTART-DESIGN-001-B0-C
 
 WORKLOG CHECKPOINT:
-LEGACY_CATALOG_RECOVERY_PASS
+SEMANTIC_RECONCILIATION_PASS
 
 SYSTEM MAP CHECKPOINT:
-RECONCILIATION_PENDING
+RECONCILIATION_READY
