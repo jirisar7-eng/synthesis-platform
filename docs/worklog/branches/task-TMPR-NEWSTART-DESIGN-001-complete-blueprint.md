@@ -165,22 +165,40 @@ D10 — Mobile/Tablet/Desktop QA
 D11 — Design consistency audit
 D12 — final blueprint checkpoint
 
+COMMAND ID: TMPR-NEWSTART-DESIGN-001-B0-B
+RECONCILIATION STATUS: SOURCE_CATALOG_CREATED
+SOURCES VERIFIED:
+- DEV3 @ 696df6255dfe1e0f1ac21a02b002999b557629e4
+- DEV3_ARCHIVE @ 7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae
+- OLD_DEV4 @ 9761765931f6efbb9f783f9fedbbe100cdc140fa
+- PUBLIC_TATOVACESTA_CZ
+D1 STATUS: CHECKPOINT_SAVED_NOT_FINAL
+
 COMPLETED:
 - design task bootstrap
 - D1: Vytvořen Screen & Surface Inventory (design-manifest.json, screen-inventory.json, coverage-matrix.md, README.md) v design/blueprint/v1/. Definováno >140 ploch, s plným typováním vlastností a metadat pro System Map. Prošel automatický validator.
+- legacy repository evidence scan
+- public sitemap evidence scan
+- feature/content catalog
+- aliases normalization
+- preliminary D1 cross-reference
+- potential gap report
 
 REMAINING:
-D2 through D12
+- authoritative D1 gap analysis
+- missing surface additions
+- duplicate/merge decisions
+- final D1 revalidation
+- D2 through D12
 
 BLOCKERS/RISKS:
 None
 
 EXACT NEXT STEP:
-TMPR-NEWSTART-DESIGN-001-C (D2: Brand + Theme Token Blueprint)
+TMPR-NEWSTART-DESIGN-001-B0-C
 
-WORKLOG CHECKPOINT
-- D1 Inventory vytvořeno
-- Validation úspěšná
+WORKLOG CHECKPOINT:
+LEGACY_CATALOG_PASS
 
-PUSH CHECKPOINT
-- Proběhne push design manifestu a inventáře do remote větve task/TMPR-NEWSTART-DESIGN-001-complete-blueprint
+SYSTEM MAP CHECKPOINT:
+RECONCILIATION_PENDING
