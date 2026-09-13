@@ -8,7 +8,9 @@
     "pnpm": "12.4.1"
   },
   "scripts": {
-    "dev": "node scripts/ai-studio-placeholder-server.mjs"
+    "dev": "node scripts/ai-studio-placeholder-server.mjs",
+    "system-map:validate": "node scripts/system-map/validate.mjs",
+    "system-map:test": "node --test scripts/system-map/validate.test.mjs"
   },
   "workspaces": [
     "apps/*",

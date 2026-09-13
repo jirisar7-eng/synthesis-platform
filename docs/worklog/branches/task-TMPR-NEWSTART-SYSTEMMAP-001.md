@@ -34,25 +34,33 @@ COMPLETED:
 - PLANNED disabled invariants
 - extensible supportedLocales with cs-CZ default
 - raw product text prohibited
+- executable System Map validator
+- duplicate detection
+- cross-reference validation
+- hierarchy lineage validation
+- orphan UI action detection
+- module dependency validation
+- dependency cycle detection
+- PLANNED safety validation
+- locale invariant validation
+- hardcoded user text detection
+- hardcoded design value detection
+- valid minimal Táta má právo fixture
+- automated Node tests
 
 COMMAND ID:
-TMPR-NEWSTART-SYSTEMMAP-001-C1
+TMPR-NEWSTART-SYSTEMMAP-001-C2
 
 REMAINING:
-- executable cross-reference validator
-- duplicate IDs
-- orphan detection
-- invalid reference detection
-- dependency validation
-- initial valid fixture
-- negative fixtures
-- automated tests
+- independent review
+- merge to main baseline
+- begin design blueprint
 
 BLOCKERS/RISKS:
 None
 
 EXACT NEXT STEP:
-TMPR-NEWSTART-SYSTEMMAP-001-C2
+TMPR-NEWSTART-BASELINE-001-REVIEW
 
 GLOBAL INVARIANTS:
 
@@ -94,5 +102,5 @@ Project
 WORKLOG CHECKPOINT
 PUSH CHECKPOINT
 SYSTEM MAP CHECKPOINT:
-CONTRACT_V1_HARDENED
+VALIDATOR_PASS
 NOTION CHECKPOINT

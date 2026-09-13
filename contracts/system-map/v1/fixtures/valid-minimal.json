@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectKey": "tmpr",
+  "defaultLocale": "cs-CZ",
+  "supportedLocales": [
+    "cs-CZ"
+  ],
+  "apps": [
+    {
+      "appIdentity": "tmpr.public",
+      "moduleKey": "mod.core",
+      "lifecycleState": "PLANNED",
+      "enabled": false,
+      "status": "ok"
+    }
+  ],
+  "routes": [
+    {
+      "routeId": "tmpr.public.home",
+      "appIdentity": "tmpr.public",
+      "moduleKey": "mod.core",
+      "lifecycleState": "PLANNED",
+      "enabled": false,
+      "status": "ok"
+    }
+  ],
+  "surfaces": [
+    {
+      "surfaceId": "tmpr.public.home.surface",
+      "appIdentity": "tmpr.public",
+      "routeId": "tmpr.public.home",
+      "moduleKey": "mod.core",
+      "status": "ok"
+    }
+  ],
+  "regions": [
+    {
+      "regionId": "tmpr.public.home.hero",
+      "surfaceId": "tmpr.public.home.surface",
+      "moduleKey": "mod.core",
+      "status": "ok"
+    }
+  ],
+  "components": [
+    {
+      "componentId": "tmpr.public.home.hero.comp",
+      "regionId": "tmpr.public.home.hero",
+      "moduleKey": "mod.core",
+      "status": "ok"
+    }
+  ],
+  "elements": [
+    {
+      "elementId": "tmpr.public.home.hero.btn",
+      "appIdentity": "tmpr.public",
+      "routeId": "tmpr.public.home",
+      "surfaceId": "tmpr.public.home.surface",
+      "regionId": "tmpr.public.home.hero",
+      "componentId": "tmpr.public.home.hero.comp",
+      "moduleKey": "mod.core",
+      "lifecycleState": "PLANNED",
+      "enabled": false,
+      "contentKey": "tmpr.public.home.hero.primary.content",
+      "disabledReasonKey": "tmpr.system.planned.default",
+      "themeTokens": [
+        "theme.action.primary"
+      ],
+      "actionKeys": [
+        "tmpr.public.home.hero.nav"
+      ],
+      "status": "ok"
+    }
+  ],
+  "actions": [
+    {
+      "actionKey": "tmpr.public.home.hero.nav",
+      "moduleKey": "mod.core",
+      "kind": "NAVIGATE",
+      "lifecycleState": "PLANNED",
+      "enabled": false,
+      "disabledReasonKey": "tmpr.system.planned.default",
+      "status": "ok"
+    }
+  ],
+  "modules": [
+    {
+      "moduleKey": "mod.core",
+      "lifecycleState": "AVAILABLE",
+      "enabled": true,
+      "status": "ok"
+    }
+  ]
+}
