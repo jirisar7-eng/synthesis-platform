@@ -2,85 +2,214 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Synthesis System Map V1",
   "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "stableId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$"
+    },
+    "lifecycleState": {
+      "type": "string",
+      "enum": [
+        "PLANNED",
+        "AVAILABLE",
+        "INSTALLING",
+        "INSTALLED",
+        "ENABLED",
+        "DISABLED",
+        "MAINTENANCE",
+        "REMOVED"
+      ]
+    },
+    "stringRefArray": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/stableId"
+      }
+    }
+  },
   "properties": {
     "schemaVersion": {
       "type": "string",
       "const": "1.0.0"
     },
     "projectKey": {
-      "type": "string"
+      "$ref": "#/$defs/stableId"
     },
     "defaultLocale": {
       "type": "string",
-      "enum": ["cs-CZ"]
+      "const": "cs-CZ"
     },
-    "apps": { "type": "array" },
-    "routes": { "type": "array" },
-    "surfaces": { "type": "array" },
-    "regions": { "type": "array" },
-    "components": { "type": "array" },
+    "supportedLocales": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "apps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "appIdentity": { "$ref": "#/$defs/stableId" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
+          "lifecycleState": { "$ref": "#/$defs/lifecycleState" },
+          "enabled": { "type": "boolean" },
+          "status": { "type": "string" }
+        },
+        "required": [
+          "appIdentity",
+          "moduleKey",
+          "lifecycleState",
+          "enabled",
+          "status"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "lifecycleState": { "const": "PLANNED" }
+              }
+            },
+            "then": {
+              "properties": {
+                "enabled": { "const": false }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "routeId": { "$ref": "#/$defs/stableId" },
+          "appIdentity": { "$ref": "#/$defs/stableId" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
+          "path": { "type": "string" },
+          "lifecycleState": { "$ref": "#/$defs/lifecycleState" },
+          "enabled": { "type": "boolean" },
+          "status": { "type": "string" }
+        },
+        "required": [
+          "routeId",
+          "appIdentity",
+          "moduleKey",
+          "lifecycleState",
+          "enabled",
+          "status"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "lifecycleState": { "const": "PLANNED" }
+              }
+            },
+            "then": {
+              "properties": {
+                "enabled": { "const": false }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "surfaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "surfaceId": { "$ref": "#/$defs/stableId" },
+          "appIdentity": { "$ref": "#/$defs/stableId" },
+          "routeId": { "$ref": "#/$defs/stableId" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
+          "status": { "type": "string" }
+        },
+        "required": [
+          "surfaceId",
+          "appIdentity",
+          "routeId",
+          "moduleKey",
+          "status"
+        ]
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "regionId": { "$ref": "#/$defs/stableId" },
+          "surfaceId": { "$ref": "#/$defs/stableId" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
+          "status": { "type": "string" }
+        },
+        "required": [
+          "regionId",
+          "surfaceId",
+          "moduleKey",
+          "status"
+        ]
+      }
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "componentId": { "$ref": "#/$defs/stableId" },
+          "regionId": { "$ref": "#/$defs/stableId" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
+          "sourcePath": { "type": "string" },
+          "status": { "type": "string" }
+        },
+        "required": [
+          "componentId",
+          "regionId",
+          "moduleKey",
+          "status"
+        ]
+      }
+    },
     "elements": {
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
-          "elementId": { "type": "string" },
-          "appIdentity": { "type": "string" },
-          "routeId": { "type": "string" },
-          "surfaceId": { "type": "string" },
-          "regionId": { "type": "string" },
-          "componentId": { "type": "string" },
-          "moduleKey": { "type": "string" },
-          "lifecycleState": {
-            "type": "string",
-            "enum": [
-              "PLANNED",
-              "AVAILABLE",
-              "INSTALLING",
-              "INSTALLED",
-              "ENABLED",
-              "DISABLED",
-              "MAINTENANCE",
-              "REMOVED"
-            ]
-          },
+          "elementId": { "$ref": "#/$defs/stableId" },
+          "appIdentity": { "$ref": "#/$defs/stableId" },
+          "routeId": { "$ref": "#/$defs/stableId" },
+          "surfaceId": { "$ref": "#/$defs/stableId" },
+          "regionId": { "$ref": "#/$defs/stableId" },
+          "componentId": { "$ref": "#/$defs/stableId" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
+          "lifecycleState": { "$ref": "#/$defs/lifecycleState" },
           "enabled": { "type": "boolean" },
-          "contentKey": { "type": "string" },
-          "helpKey": { "type": "string" },
-          "disabledReasonKey": { "type": "string" },
-          "themeTokens": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "assetRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "permissionKeys": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "actionKeys": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "apiRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "eventRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "jobRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "dataOwner": { "type": "string" },
-          "testRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
+          "contentKey": { "$ref": "#/$defs/stableId" },
+          "helpKey": { "$ref": "#/$defs/stableId" },
+          "disabledReasonKey": { "$ref": "#/$defs/stableId" },
+          "themeTokens": { "$ref": "#/$defs/stringRefArray" },
+          "assetRefs": { "$ref": "#/$defs/stringRefArray" },
+          "permissionKeys": { "$ref": "#/$defs/stringRefArray" },
+          "actionKeys": { "$ref": "#/$defs/stringRefArray" },
+          "apiRefs": { "$ref": "#/$defs/stringRefArray" },
+          "eventRefs": { "$ref": "#/$defs/stringRefArray" },
+          "jobRefs": { "$ref": "#/$defs/stringRefArray" },
+          "dataOwner": { "$ref": "#/$defs/stableId" },
+          "testRefs": { "$ref": "#/$defs/stringRefArray" },
           "taskId": { "type": "string" },
           "introducedCommit": { "type": "string" },
           "status": { "type": "string" },
@@ -119,9 +248,10 @@
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
-          "actionKey": { "type": "string" },
-          "moduleKey": { "type": "string" },
+          "actionKey": { "$ref": "#/$defs/stableId" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
           "kind": {
             "type": "string",
             "enum": [
@@ -140,27 +270,16 @@
               "EXTERNAL_LINK"
             ]
           },
-          "lifecycleState": { "type": "string" },
+          "lifecycleState": { "$ref": "#/$defs/lifecycleState" },
           "enabled": { "type": "boolean" },
-          "permissionKeys": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "targetRouteId": { "type": "string" },
-          "apiRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "eventRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "jobRefs": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "auditEventKey": { "type": "string" },
-          "aiToolKey": { "type": "string" },
+          "disabledReasonKey": { "$ref": "#/$defs/stableId" },
+          "permissionKeys": { "$ref": "#/$defs/stringRefArray" },
+          "targetRouteId": { "$ref": "#/$defs/stableId" },
+          "apiRefs": { "$ref": "#/$defs/stringRefArray" },
+          "eventRefs": { "$ref": "#/$defs/stringRefArray" },
+          "jobRefs": { "$ref": "#/$defs/stringRefArray" },
+          "auditEventKey": { "$ref": "#/$defs/stableId" },
+          "aiToolKey": { "$ref": "#/$defs/stableId" },
           "taskId": { "type": "string" },
           "status": { "type": "string" }
         },
@@ -171,6 +290,21 @@
           "lifecycleState",
           "enabled",
           "status"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "lifecycleState": { "const": "PLANNED" }
+              }
+            },
+            "then": {
+              "properties": {
+                "enabled": { "const": false }
+              },
+              "required": ["disabledReasonKey"]
+            }
+          }
         ]
       }
     },
@@ -178,31 +312,40 @@
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
-          "moduleKey": { "type": "string" },
-          "lifecycleState": { "type": "string" },
+          "moduleKey": { "$ref": "#/$defs/stableId" },
+          "lifecycleState": { "$ref": "#/$defs/lifecycleState" },
           "enabled": { "type": "boolean" },
-          "dependencies": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "capabilities": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "permissionKeys": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "auditNamespace": { "type": "string" },
-          "aiNamespace": { "type": "string" },
-          "dataOwners": {
-            "type": "array",
-            "items": { "type": "string" }
-          },
+          "dependencies": { "$ref": "#/$defs/stringRefArray" },
+          "capabilities": { "$ref": "#/$defs/stringRefArray" },
+          "permissionKeys": { "$ref": "#/$defs/stringRefArray" },
+          "auditNamespace": { "$ref": "#/$defs/stableId" },
+          "aiNamespace": { "$ref": "#/$defs/stableId" },
+          "dataOwners": { "$ref": "#/$defs/stringRefArray" },
           "taskId": { "type": "string" },
           "status": { "type": "string" }
-        }
+        },
+        "required": [
+          "moduleKey",
+          "lifecycleState",
+          "enabled",
+          "status"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "lifecycleState": { "const": "PLANNED" }
+              }
+            },
+            "then": {
+              "properties": {
+                "enabled": { "const": false }
+              }
+            }
+          }
+        ]
       }
     }
   },
@@ -210,6 +353,7 @@
     "schemaVersion",
     "projectKey",
     "defaultLocale",
+    "supportedLocales",
     "apps",
     "routes",
     "surfaces",

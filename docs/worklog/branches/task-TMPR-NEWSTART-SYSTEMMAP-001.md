@@ -24,24 +24,35 @@ COMPLETED:
 - design token/asset references
 - auditEventKey extension seam
 - aiToolKey extension seam
+- typed App contract
+- typed Route contract
+- typed Surface contract
+- typed Region contract
+- typed Component contract
+- strict additionalProperties rules
+- shared lifecycle enum
+- PLANNED disabled invariants
+- extensible supportedLocales with cs-CZ default
+- raw product text prohibited
 
 COMMAND ID:
-TMPR-NEWSTART-SYSTEMMAP-001-B
+TMPR-NEWSTART-SYSTEMMAP-001-C1
 
 REMAINING:
-- executable validator
-- duplicate ID validation
-- orphan validation
-- reference validation
-- PLANNED-state validation
-- initial registry fixture
-- tests
+- executable cross-reference validator
+- duplicate IDs
+- orphan detection
+- invalid reference detection
+- dependency validation
+- initial valid fixture
+- negative fixtures
+- automated tests
 
 BLOCKERS/RISKS:
 None
 
 EXACT NEXT STEP:
-TMPR-NEWSTART-SYSTEMMAP-001-C
+TMPR-NEWSTART-SYSTEMMAP-001-C2
 
 GLOBAL INVARIANTS:
 
@@ -83,5 +94,5 @@ Project
 WORKLOG CHECKPOINT
 PUSH CHECKPOINT
 SYSTEM MAP CHECKPOINT:
-CONTRACT_V1_CREATED
+CONTRACT_V1_HARDENED
 NOTION CHECKPOINT
