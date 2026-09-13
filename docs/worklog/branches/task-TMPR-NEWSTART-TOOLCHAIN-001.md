@@ -61,3 +61,34 @@ WORKLOG CHECKPOINT
 PUSH CHECKPOINT
 SYSTEM MAP CHECKPOINT
 NOTION CHECKPOINT
+
+RECOVERY CHECKPOINT:
+TMPR-NEWSTART-SYSTEMMAP-001-A-R02
+
+CAUSE:
+AI Studio background manager automatically added the
+top-level package.json `workspaces` compatibility field.
+
+DECISION:
+Accept the field as environment compatibility metadata.
+
+AUTHORITATIVE WORKSPACE CONFIG:
+pnpm-workspace.yaml
+
+AUTHORITATIVE PACKAGE MANAGER:
+pnpm@12.4.1
+
+IMPORTANT:
+- package.json workspaces is NOT the Synthesis workspace source-of-truth
+- pnpm-workspace.yaml remains authoritative
+- do not migrate repository authority to npm/Bun/Yarn
+- do not remove compatibility metadata if AI Studio requires it
+- no application code changed
+- no user-facing text introduced
+- no design introduced
+
+STATUS remains:
+PASS
+
+EXACT NEXT STEP:
+TMPR-NEWSTART-SYSTEMMAP-001-A-R02 / System Map bootstrap continuation

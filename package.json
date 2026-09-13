@@ -9,5 +9,11 @@
   },
   "scripts": {
     "dev": "node scripts/ai-studio-placeholder-server.mjs"
-  }
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "projects/*",
+    "modules/*"
+  ]
 }
