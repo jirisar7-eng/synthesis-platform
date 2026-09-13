@@ -15,7 +15,7 @@ BRANCH:
 task/TMPR-NEWSTART-BASELINE-001-review
 
 STATUS:
-IN_PROGRESS
+PASS
 
 REVIEW SCOPE:
 - Git history continuity
@@ -29,8 +29,41 @@ REVIEW SCOPE:
 - hardcoded-text/design protections
 - no premature product implementation
 
+COMPLETED:
+- full baseline history verified
+- toolchain verified
+- package-manager authority verified
+- supply-chain baseline verified
+- System Map contract verified
+- validator verified
+- 12/12 tests PASS
+- premature product implementation absent
+- baseline ready for design phase
+
+BLOCKERS/RISKS:
+None
+
+TESTS:
+System Map 12/12 PASS
+
+SYSTEM MAP CHECKPOINT:
+BASELINE_REVIEW_PASS
+
+NOTION CHECKPOINT:
+PENDING_CHATGPT_VERIFICATION
+
 EXACT NEXT STEP:
 TMPR-NEWSTART-DESIGN-001-A
+
+GLOBAL ARCHITECTURE REVIEW:
+CZECH UI: PASS — cs-CZ default contract
+MODULE BOUNDARY: PASS — moduleKey/dependencies připraveny
+CONTENT KEYS: PASS — raw user copy prohibited in System Map
+THEME TOKENS: PASS — raw design values prohibited
+SYSTEM MAP: PASS — schema + validator + 12 tests
+RBAC: READY FOR PLATFORM CONTRACT PHASE
+AUDIT EVENTS: EXTENSION SEAM READY
+AI REGISTRY / TOOL POLICY: EXTENSION SEAM READY
 
 WORKLOG CHECKPOINT
 PUSH CHECKPOINT
