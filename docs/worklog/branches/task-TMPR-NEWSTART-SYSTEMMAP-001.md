@@ -4,7 +4,7 @@ PURPOSE: Machine-readable registry všech významných systémových a UI prvků
 WHY: Umožnit dlouhodobou dohledatelnost každého prvku projektu
 
 BASE COMMIT:
-d89889286acd077dd0e9939174b18b8c3e8d814d
+2c618e21629b714ca31cf59d3708ade25240dcce
 
 BRANCH:
 task/TMPR-NEWSTART-SYSTEMMAP-001
@@ -15,26 +15,33 @@ IN_PROGRESS
 COMPLETED:
 - task bootstrap
 - remote checkpoint
+- versioned System Map v1 schema
+- Element contract
+- Action contract
+- Module reference contract
+- lifecycle contract
+- content/help key rule
+- design token/asset references
+- auditEventKey extension seam
+- aiToolKey extension seam
+
+COMMAND ID:
+TMPR-NEWSTART-SYSTEMMAP-001-B
 
 REMAINING:
-- System Map schema
-- Element Registry
-- Action Registry
-- Module ownership
-- lifecycle model
-- content/help references
-- theme/asset references
-- RBAC references
-- API/event/job references
-- data ownership
-- validation
+- executable validator
+- duplicate ID validation
+- orphan validation
+- reference validation
+- PLANNED-state validation
+- initial registry fixture
 - tests
 
 BLOCKERS/RISKS:
 None
 
 EXACT NEXT STEP:
-TMPR-NEWSTART-SYSTEMMAP-001-B
+TMPR-NEWSTART-SYSTEMMAP-001-C
 
 GLOBAL INVARIANTS:
 
@@ -75,5 +82,6 @@ Project
 
 WORKLOG CHECKPOINT
 PUSH CHECKPOINT
-SYSTEM MAP CHECKPOINT
+SYSTEM MAP CHECKPOINT:
+CONTRACT_V1_CREATED
 NOTION CHECKPOINT

@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthesis System Map V1",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "projectKey": {
+      "type": "string"
+    },
+    "defaultLocale": {
+      "type": "string",
+      "enum": ["cs-CZ"]
+    },
+    "apps": { "type": "array" },
+    "routes": { "type": "array" },
+    "surfaces": { "type": "array" },
+    "regions": { "type": "array" },
+    "components": { "type": "array" },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "elementId": { "type": "string" },
+          "appIdentity": { "type": "string" },
+          "routeId": { "type": "string" },
+          "surfaceId": { "type": "string" },
+          "regionId": { "type": "string" },
+          "componentId": { "type": "string" },
+          "moduleKey": { "type": "string" },
+          "lifecycleState": {
+            "type": "string",
+            "enum": [
+              "PLANNED",
+              "AVAILABLE",
+              "INSTALLING",
+              "INSTALLED",
+              "ENABLED",
+              "DISABLED",
+              "MAINTENANCE",
+              "REMOVED"
+            ]
+          },
+          "enabled": { "type": "boolean" },
+          "contentKey": { "type": "string" },
+          "helpKey": { "type": "string" },
+          "disabledReasonKey": { "type": "string" },
+          "themeTokens": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "assetRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "permissionKeys": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "actionKeys": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "apiRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "eventRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "jobRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "dataOwner": { "type": "string" },
+          "testRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "taskId": { "type": "string" },
+          "introducedCommit": { "type": "string" },
+          "status": { "type": "string" },
+          "sourcePath": { "type": "string" }
+        },
+        "required": [
+          "elementId",
+          "appIdentity",
+          "routeId",
+          "surfaceId",
+          "regionId",
+          "componentId",
+          "moduleKey",
+          "lifecycleState",
+          "enabled",
+          "status"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "lifecycleState": { "const": "PLANNED" }
+              }
+            },
+            "then": {
+              "properties": {
+                "enabled": { "const": false }
+              },
+              "required": ["disabledReasonKey"]
+            }
+          }
+        ]
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "actionKey": { "type": "string" },
+          "moduleKey": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "NAVIGATE",
+              "COMMAND",
+              "SUBMIT",
+              "TOGGLE",
+              "OPEN_DIALOG",
+              "CLOSE_DIALOG",
+              "DOWNLOAD",
+              "UPLOAD",
+              "SEARCH",
+              "FILTER",
+              "SORT",
+              "PAGINATE",
+              "EXTERNAL_LINK"
+            ]
+          },
+          "lifecycleState": { "type": "string" },
+          "enabled": { "type": "boolean" },
+          "permissionKeys": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "targetRouteId": { "type": "string" },
+          "apiRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "eventRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "jobRefs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "auditEventKey": { "type": "string" },
+          "aiToolKey": { "type": "string" },
+          "taskId": { "type": "string" },
+          "status": { "type": "string" }
+        },
+        "required": [
+          "actionKey",
+          "moduleKey",
+          "kind",
+          "lifecycleState",
+          "enabled",
+          "status"
+        ]
+      }
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "moduleKey": { "type": "string" },
+          "lifecycleState": { "type": "string" },
+          "enabled": { "type": "boolean" },
+          "dependencies": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "capabilities": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "permissionKeys": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "auditNamespace": { "type": "string" },
+          "aiNamespace": { "type": "string" },
+          "dataOwners": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "taskId": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "projectKey",
+    "defaultLocale",
+    "apps",
+    "routes",
+    "surfaces",
+    "regions",
+    "components",
+    "elements",
+    "actions",
+    "modules"
+  ]
+}
