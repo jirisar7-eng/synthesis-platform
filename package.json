@@ -6,5 +6,8 @@
   "engines": {
     "node": ">=24 <25",
     "pnpm": "12.4.1"
+  },
+  "scripts": {
+    "dev": "node scripts/ai-studio-placeholder-server.mjs"
   }
 }

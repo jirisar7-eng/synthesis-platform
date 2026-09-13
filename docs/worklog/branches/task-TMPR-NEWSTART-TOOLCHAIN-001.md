@@ -7,9 +7,9 @@ STATUS: IN_PROGRESS
 COMPLETED: Worklog creation, Toolchain configuration files created (TMPR-NEWSTART-TOOLCHAIN-001-B)
 REMAINING: Toolchain verification
 BLOCKERS/RISKS: None
-CHANGED FILES: package.json, .nvmrc, .node-version, pnpm-workspace.yaml, .npmrc, .gitignore, docs/worklog/branches/task-TMPR-NEWSTART-TOOLCHAIN-001.md
-TESTS: Validation script PASSED
-COMMITS: chore(toolchain): lock node and pnpm authority
+CHANGED FILES: package.json, pnpm-workspace.yaml, pnpm-lock.yaml, .npmrc, scripts/ai-studio-placeholder-server.mjs, docs/worklog/branches/task-TMPR-NEWSTART-TOOLCHAIN-001.md
+TESTS: Dev placeholder test HTTP 204
+COMMITS: chore(toolchain): lock node and pnpm authority, fix(toolchain): stabilize pnpm environment in AI Studio
 PUSH/CI: PENDING
 LAST VERIFIED HEAD: PENDING
 EXACT NEXT STEP: TMPR-NEWSTART-TOOLCHAIN-001-C
@@ -32,6 +32,23 @@ RECOVERY / VERIFICATION HISTORY
 - Supply-chain remains fail-closed
 - No dependencies installed
 - Removed forbidden bun.lock
+
+COMMAND ID: TMPR-NEWSTART-TOOLCHAIN-001-C-R02
+- AI Studio preview automaticky spouštělo Bun
+- starý AI Studio skeleton byl untracked residue
+- residue odstraněn pouze explicitním allowlistem
+- žádný tracked soubor nebyl smazán
+- pnpm 12 project settings přesunuty do pnpm-workspace.yaml
+- engineStrict=true
+- strictDepBuilds=true
+- validní pnpm-lock.yaml vytvořen přes pnpm
+- žádný dependency script nebyl spuštěn
+- AI Studio placeholder server je pouze dočasný environment adapter
+- placeholder neobsahuje produktový text, UI ani doménovou logiku
+- Node 24.21.0
+- pnpm 12.4.1
+- dev placeholder test HTTP 204
+- forbidden lockfiles = 0
 
 WORKLOG CHECKPOINT
 PUSH CHECKPOINT
