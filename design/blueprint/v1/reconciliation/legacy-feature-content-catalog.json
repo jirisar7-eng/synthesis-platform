@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedFromTask": "TMPR-NEWSTART-DESIGN-001-B0-B",
+  "generatedFromTask": "TMPR-NEWSTART-DESIGN-001-B0-B-R01",
   "sources": [
     "DEV3",
     "DEV3_ARCHIVE",
@@ -9,67 +9,43 @@
   ],
   "items": [
     {
-      "catalogId": "8aaca212-e639-41aa-8bb0-29ee97479d5f",
+      "catalogId": "6a173cfb-44f5-4806-8956-1297f6cac77d",
       "workingNameCs": "SOS krizový plán",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-KRIZOVY-ROZCESTNIK-01.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/public/community/SosPlan48HoursView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "src/components/public/community/SosPlan48HoursView.tsx",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/public/community/SosPlanView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-KRIZOVY-ROZCESTNIK-01.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/components/public/community/SosPlan48HoursView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/components/public/community/SosPlanView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "PUBLIC_TATOVACESTA_CZ",
-          "repository": null,
-          "ref": "LIVE",
-          "pathOrUrl": "https://www.tatovacesta.cz/krizova-pomoc",
-          "evidenceType": "PUBLIC_PAGE",
           "confidence": "HIGH"
         },
         {
@@ -79,54 +55,31 @@
           "pathOrUrl": "https://www.tatovacesta.cz/sos-plan",
           "evidenceType": "PUBLIC_PAGE",
           "confidence": "HIGH"
+        },
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/crisis",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
         }
       ],
       "aliases": [],
       "currentD1CandidateIds": [
         "tmpr.public.help.sos"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "5c44f095-973a-46ed-9f42-865e540a4d17",
+      "catalogId": "b3336a00-0d80-4ae7-945c-e1c49b4e1e0f",
       "workingNameCs": "krizové linky",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-KRIZOVY-ROZCESTNIK-01.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "src/tests/krizovyRozcestnik.test.ts",
-          "evidenceType": "TEST",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-KRIZOVY-ROZCESTNIK-01.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "src/tests/krizovyRozcestnik.test.ts",
-          "evidenceType": "TEST",
-          "confidence": "MEDIUM"
-        },
         {
           "source": "PUBLIC_TATOVACESTA_CZ",
           "repository": null,
@@ -138,13 +91,14 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "6866bddc-0b3e-4221-a436-802458a4500b",
+      "catalogId": "3856c5e1-0a34-41dc-8fc8-e092307002d5",
       "workingNameCs": "právní poradna",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "LEGAL",
+      "area": "Legal",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
@@ -159,87 +113,136 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "5ef15277-5302-4784-94ab-fb952baf56a5",
+      "catalogId": "213780df-8379-47f2-a344-49d142f1e04f",
       "workingNameCs": "registr subjektů",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "REGISTRY",
+      "area": "Registry",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "audits/registry/SOUDY_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "audits/research/OSPOD_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-23_REGISTRY_PRODUCTION_GAP.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-29_AUDIT_CENTER_2_REGISTRY_ENGINE.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-30_STUDY_EVIDENCE_REGISTRY_COMPLETION.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "audits/registry/SOUDY_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "audits/research/OSPOD_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-23_REGISTRY_PRODUCTION_GAP.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-29_AUDIT_CENTER_2_REGISTRY_ENGINE.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-30_STUDY_EVIDENCE_REGISTRY_COMPLETION.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/module-engine/src/registry/index.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/module-engine/src/registry/registry.errors.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/module-engine/src/registry/registry.internal.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "packages/module-engine/src/registry/registry.ts",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "packages/module-engine/src/registry/registry.types.ts",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         }
       ],
       "aliases": [],
@@ -248,108 +251,119 @@
         "tmpr.public.registry.detail",
         "tmpr.public.registry.reviews",
         "tmpr.public.registry.map",
-        "tmpr.account.register",
-        "tmpr.account.passkey.register",
-        "synthesis.cms.text.registry",
-        "synthesis.cms.help.registry",
-        "synthesis.admin.modules.registry",
-        "synthesis.admin.settings.registry",
         "synthesis.admin.content.registry"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "bf6f6b81-bdb5-40f4-8456-a1907bce0c96",
+      "catalogId": "56ab184b-361e-4176-b5ad-8175b706a355",
       "workingNameCs": "mapa institucí",
-      "type": "FEATURE",
-      "area": "Legacy",
-      "legacyStatus": "PUBLIC_CURRENT",
-      "disposition": "REVIEW",
-      "evidence": [
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "audits/registry/SOUDY_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audit/AUDIT_2026-08-22_MAPA_PRODUCTION_FIX.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audit/MAPA_SUBJEKTU_INTEGRATION_AUDIT_2026-08-21.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "audits/registry/SOUDY_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audit/AUDIT_2026-08-22_MAPA_PRODUCTION_FIX.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audit/MAPA_SUBJEKTU_INTEGRATION_AUDIT_2026-08-21.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "PUBLIC_TATOVACESTA_CZ",
-          "repository": null,
-          "ref": "LIVE",
-          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat/soud",
-          "evidenceType": "PUBLIC_PAGE",
-          "confidence": "HIGH"
-        },
-        {
-          "source": "PUBLIC_TATOVACESTA_CZ",
-          "repository": null,
-          "ref": "LIVE",
-          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/soudni-znalec-nedoporucil",
-          "evidenceType": "PUBLIC_PAGE",
-          "confidence": "HIGH"
-        }
-      ],
-      "aliases": [],
-      "currentD1CandidateIds": [
-        "tmpr.public.registry.map",
-        "tmpr.public.tools.court"
-      ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
-    },
-    {
-      "catalogId": "3779ea9b-2895-4c00-8889-e4c21d997266",
-      "workingNameCs": "hodnocení subjektů",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "REGISTRY",
+      "area": "Registry",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-22_MAPA_PRODUCTION_FIX.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/MAPA_SUBJEKTU_INTEGRATION_AUDIT_2026-08-21.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-05A-MAPA-VERIFIED-GEOCODE-SECURITY.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-06A-MAPA-POKROCILE-FILTRY.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "scripts/test-mapa-subjektu.cjs",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-22_MAPA_PRODUCTION_FIX.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/MAPA_SUBJEKTU_INTEGRATION_AUDIT_2026-08-21.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-05A-MAPA-VERIFIED-GEOCODE-SECURITY.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-06A-MAPA-POKROCILE-FILTRY.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/AUDIT_2026-08-22_MAPA_PRODUCTION_FIX.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [
+        "tmpr.public.registry.map"
+      ],
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
+    },
+    {
+      "catalogId": "b989a890-d54b-4c49-b8e2-55441248a94a",
+      "workingNameCs": "hodnocení subjektů",
+      "type": "FEATURE",
+      "area": "Public",
+      "legacyStatus": "DOCUMENTED",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/agents/antigravity-preview.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
@@ -357,23 +371,39 @@
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-23_REVIEW_LOGIN_REQUIRED.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUTH_SESSION_MFA_PHASE_05C_INDEPENDENT_SECURITY_REVIEW_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/CONTROL_PLANE_PHASE5_FINAL_REVIEW_2026-08-29.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/JUDGMENT_EXTRACTOR_CASE_SYNC_FINAL_REVIEW_2026-08-23.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/agents/antigravity-preview.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
@@ -381,23 +411,39 @@
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-23_REVIEW_LOGIN_REQUIRED.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUTH_SESSION_MFA_PHASE_05C_INDEPENDENT_SECURITY_REVIEW_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/CONTROL_PLANE_PHASE5_FINAL_REVIEW_2026-08-29.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/JUDGMENT_EXTRACTOR_CASE_SYNC_FINAL_REVIEW_2026-08-23.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "docs/worklog/branches/task-TMPR-DEV4-AISTUDIO-PREVIEW-COMPAT-001.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
@@ -406,73 +452,100 @@
       "aliases": [],
       "currentD1CandidateIds": [
         "tmpr.public.registry.reviews",
-        "tmpr.case.ai.generator.preview",
         "synthesis.cms.workflow.review",
         "synthesis.cms.workflow.review.detail",
-        "synthesis.cms.workflow.preview",
-        "synthesis.cms.seo.preview",
-        "synthesis.cms.forms.preview",
-        "synthesis.admin.brand.preview.resp",
-        "synthesis.admin.brand.preview.theme",
         "synthesis.admin.content.reviews"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "MEDIUM",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "5eb196b9-a98c-4f7f-b615-8deec93b0f4c",
+      "catalogId": "331c09e5-4f14-48a7-bb45-2d1f1af197d8",
       "workingNameCs": "Memento otců",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MEMENTO-02.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MEMENTO-03-INFORMATION-ARCHITECTURE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/admin/MementoManager.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/public/community/MementoView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/public/community/memento/MementoCaseDetailView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MEMENTO-02.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MEMENTO-03-INFORMATION-ARCHITECTURE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/components/admin/MementoManager.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/components/public/community/MementoView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/components/public/community/memento/MementoCaseDetailView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "PUBLIC_TATOVACESTA_CZ",
@@ -487,71 +560,64 @@
       "currentD1CandidateIds": [
         "tmpr.public.memento"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "7a9d7db0-9af4-4460-8105-353577dd5c0b",
+      "catalogId": "9c5ab015-3d0c-46e6-8b99-1b0d76717eef",
       "workingNameCs": "psychologická podpora",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MOJE-DITE-01-PSYCHOLOGIE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/public/PsychologieView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "src/tests/psychologieView.test.ts",
-          "evidenceType": "TEST",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MOJE-DITE-01-PSYCHOLOGIE.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "src/components/public/PsychologieView.tsx",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "src/tests/psychologieView.test.ts",
-          "evidenceType": "TEST",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "PUBLIC_TATOVACESTA_CZ",
-          "repository": null,
-          "ref": "LIVE",
-          "pathOrUrl": "https://www.tatovacesta.cz/podpora",
-          "evidenceType": "PUBLIC_PAGE",
           "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/tests/psychologieView.test.ts",
+          "evidenceType": "TEST",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MOJE-DITE-01-PSYCHOLOGIE.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/components/public/PsychologieView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/tests/psychologieView.test.ts",
+          "evidenceType": "TEST",
+          "confidence": "MEDIUM"
         },
         {
           "source": "PUBLIC_TATOVACESTA_CZ",
@@ -564,16 +630,16 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [
-        "tmpr.public.child.psychology",
-        "tmpr.public.project.contact"
+        "tmpr.public.child.psychology"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "5a3d9f58-faa2-4ad9-8c47-600934d4c096",
+      "catalogId": "698f3f18-90ff-43be-94a3-e02c92ae4b50",
       "workingNameCs": "školy/školky",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
@@ -588,30 +654,31 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "f57b0b8e-9053-4879-bc31-8ab9481a8c1c",
+      "catalogId": "a1ecf67a-dc27-46a4-a09a-643586ef6710",
       "workingNameCs": "zdravotní péče/OČR",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MOJE-DITE-04-ZDRAVOTNI-PECE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MOJE-DITE-04-ZDRAVOTNI-PECE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
@@ -633,28 +700,29 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "40ab183a-02d0-4b26-8a9b-02da9bb9d211",
+      "catalogId": "1d801300-ef0d-40ea-a7c9-b58a951419a6",
       "workingNameCs": "knihovna studií",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/public/academy/StudiesView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "tests/cms-studies-api.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -662,23 +730,23 @@
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "uploads/studies/Fabricius_Warshak_2017_Overnight_Parenting_Infants.pdf",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/components/public/academy/StudiesView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "tests/cms-studies-api.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -686,10 +754,10 @@
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "uploads/studies/Fabricius_Warshak_2017_Overnight_Parenting_Infants.pdf",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "PUBLIC_TATOVACESTA_CZ",
@@ -714,58 +782,27 @@
         "tmpr.public.library.detail",
         "tmpr.public.knowledge.law-library"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "e655cd9a-5b27-4d47-bc3c-0624d4c4c94e",
+      "catalogId": "9f815ffc-da69-4539-8273-540da13df6d3",
       "workingNameCs": "péče o malé děti",
       "type": "FEATURE",
-      "area": "Legacy",
-      "legacyStatus": "PUBLIC_CURRENT",
+      "area": "Public",
+      "legacyStatus": "UNCLEAR",
       "disposition": "REVIEW",
-      "evidence": [
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MOJE-DITE-04-ZDRAVOTNI-PECE.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audits/MASTER-IMPLEMENT-MOJE-DITE-04-ZDRAVOTNI-PECE.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "PUBLIC_TATOVACESTA_CZ",
-          "repository": null,
-          "ref": "LIVE",
-          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/stridava-pece-skodi",
-          "evidenceType": "PUBLIC_PAGE",
-          "confidence": "HIGH"
-        },
-        {
-          "source": "PUBLIC_TATOVACESTA_CZ",
-          "repository": null,
-          "ref": "LIVE",
-          "pathOrUrl": "https://www.tatovacesta.cz/plan-pece",
-          "evidenceType": "PUBLIC_PAGE",
-          "confidence": "HIGH"
-        }
-      ],
+      "evidence": [],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "LOW",
+      "notesCs": "Žádná evidence, nutno rozhodnout."
     },
     {
-      "catalogId": "bc2ccbd9-8afe-4e6b-bcbb-0f0e386c0f2e",
+      "catalogId": "0830bf2f-aded-40f5-802e-ded85e8b653c",
       "workingNameCs": "judikatura",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "LEGAL",
+      "area": "Legal",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
@@ -780,86 +817,111 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "c835946a-dded-41e3-bc4c-f01ff128a187",
+      "catalogId": "d03a0173-6fed-45e6-b524-aa4f0da2dfdf",
       "workingNameCs": "vzory podání",
-      "type": "FEATURE",
-      "area": "Legacy",
-      "legacyStatus": "DOCUMENTED",
+      "type": "LEGAL",
+      "area": "Legal",
+      "legacyStatus": "UNCLEAR",
       "disposition": "REVIEW",
-      "evidence": [
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "synthetic-placeholder-for-vzory podání",
-          "evidenceType": "CODE",
-          "confidence": "LOW"
-        }
-      ],
+      "evidence": [],
       "aliases": [],
       "currentD1CandidateIds": [
         "tmpr.public.knowledge.templates",
         "tmpr.public.knowledge.templates.detail"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "LOW",
+      "notesCs": "Žádná evidence, nutno rozhodnout."
     },
     {
-      "catalogId": "93a6f782-a13c-4f96-91b1-656e74873751",
+      "catalogId": "a16b633d-449b-4d6b-974d-2f9a6a251330",
       "workingNameCs": "e-Sbírka",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "LEGAL",
+      "area": "Legal",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "AUDIT_ESBIRKA_ENDPOINTS_2026-08-17.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "AUDIT_ESBIRKA_UPSTREAM_2026-08-17.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-26_ESBIRKA_SCHEDULER_REMEDIATION.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/ESBIRKA_CHECKPOINT_7_5_AUDIT_2026-08-17.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/ESBIRKA_CLIENT_IMPLEMENTATION_2026-08-17.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "AUDIT_ESBIRKA_ENDPOINTS_2026-08-17.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "AUDIT_ESBIRKA_ENDPOINTS_2026-08-17.md",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "AUDIT_ESBIRKA_UPSTREAM_2026-08-17.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-26_ESBIRKA_SCHEDULER_REMEDIATION.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/ESBIRKA_CHECKPOINT_7_5_AUDIT_2026-08-17.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/ESBIRKA_CLIENT_IMPLEMENTATION_2026-08-17.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         }
       ],
@@ -868,77 +930,62 @@
         "eSbírka"
       ],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "MEDIUM",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "b2935e2f-6da2-470a-9c75-a31f0e8ef617",
+      "catalogId": "abc38b2a-ccad-46af-8e50-6e0c3d078765",
       "workingNameCs": "slovník",
       "type": "FEATURE",
-      "area": "Legacy",
-      "legacyStatus": "DOCUMENTED",
+      "area": "Public",
+      "legacyStatus": "UNCLEAR",
       "disposition": "REVIEW",
-      "evidence": [
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "synthetic-placeholder-for-slovník",
-          "evidenceType": "CODE",
-          "confidence": "LOW"
-        }
-      ],
+      "evidence": [],
       "aliases": [],
       "currentD1CandidateIds": [
         "tmpr.public.knowledge.glossary"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "LOW",
+      "notesCs": "Žádná evidence, nutno rozhodnout."
     },
     {
-      "catalogId": "b258f424-61ca-4031-9583-ecd30cd261ab",
+      "catalogId": "6cfe43f9-1f97-45ff-8caa-1e8f907b7af6",
       "workingNameCs": "kalkulačka výživného",
-      "type": "FEATURE",
-      "area": "Legacy",
-      "legacyStatus": "DOCUMENTED",
+      "type": "TOOL",
+      "area": "Tools",
+      "legacyStatus": "UNCLEAR",
       "disposition": "REVIEW",
-      "evidence": [
-        {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "synthetic-placeholder-for-kalkulačka výživného",
-          "evidenceType": "CODE",
-          "confidence": "LOW"
-        }
-      ],
+      "evidence": [],
       "aliases": [],
       "currentD1CandidateIds": [
         "tmpr.public.tools.calculator"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "LOW",
+      "notesCs": "Žádná evidence, nutno rozhodnout."
     },
     {
-      "catalogId": "669ab7e2-1479-4add-8964-c4ffef8f0b36",
+      "catalogId": "55cf9d74-9ec3-4b4f-bfac-39869853e90d",
       "workingNameCs": "BIFF",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "TOOL",
+      "area": "Tools",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/public/BiffCommunicationView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/components/public/BiffCommunicationView.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         }
       ],
       "aliases": [],
@@ -947,68 +994,101 @@
         "tmpr.case.ai.biff.workspace",
         "tmpr.case.ai.biff.result"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "09a6e993-de6d-4a4f-93fb-f1f14339cd78",
+      "catalogId": "69f5231c-5e21-46a2-9e78-03c43c3803a5",
       "workingNameCs": "AI generátor podání",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "AI",
+      "area": "AI",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "audits/PHASE_2B-2_DATA_ANALYST_REMAINING_CAPABILITIES_2026-09-05.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "audits/central-judgment-integration/AUDIT_2026-08-23_FORENSIC_JUDGMENT_DATAFLOW_REPAIR.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "auto-sync-main.sh",
           "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/agents/ai-talk-radio.md",
+          "evidenceType": "DOC",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/agents/repo-maintainer.md",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "audits/PHASE_2B-2_DATA_ANALYST_REMAINING_CAPABILITIES_2026-09-05.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "audits/central-judgment-integration/AUDIT_2026-08-23_FORENSIC_JUDGMENT_DATAFLOW_REPAIR.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "auto-sync-main.sh",
           "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/agents/ai-talk-radio.md",
+          "evidenceType": "DOC",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/agents/repo-maintainer.md",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "docs/worklog/branches/task-TMPR-DEV4-AISTUDIO-PREVIEW-COMPAT-001.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
@@ -1016,7 +1096,7 @@
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/cms-to-domain.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -1024,10 +1104,18 @@
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/os-to-domain.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "packages/module-engine/src/scaffold/generator.ts",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "PUBLIC_TATOVACESTA_CZ",
@@ -1059,128 +1147,94 @@
         "Generátor podání"
       ],
       "currentD1CandidateIds": [
-        "tmpr.public.registry.detail",
-        "tmpr.public.library.detail",
-        "tmpr.public.knowledge.case-law.detail",
-        "tmpr.public.knowledge.law-library.detail",
-        "tmpr.public.knowledge.templates.detail",
-        "tmpr.public.knowledge.glossary.detail",
         "tmpr.public.ai.biff.intro",
         "tmpr.public.ai.generator.intro",
         "tmpr.public.ai.simulator.intro",
         "tmpr.public.ai.orion.intro",
-        "tmpr.account.verify-email",
-        "tmpr.account.notification.detail",
-        "tmpr.case.children.detail",
-        "tmpr.case.vault.detail",
-        "tmpr.case.journal.incident",
-        "tmpr.case.court.detail",
-        "tmpr.case.ospod.detail",
-        "tmpr.case.tasks.detail",
-        "tmpr.case.notes.detail",
-        "tmpr.case.evidence.detail",
-        "tmpr.case.ai.biff.workspace",
-        "tmpr.case.ai.biff.result",
-        "tmpr.case.ai.generator",
-        "tmpr.case.ai.generator.preview",
-        "tmpr.case.ai.simulator.scenario",
-        "tmpr.case.ai.simulator.chat",
-        "tmpr.case.ai.simulator.eval",
-        "tmpr.case.ai.orion.drawer",
-        "tmpr.case.ai.orion.full",
-        "tmpr.case.ai.orion.settings",
-        "tmpr.case.ai.history",
-        "synthesis.cms.pages.detail",
-        "synthesis.cms.workflow.review.detail",
-        "synthesis.cms.media.detail",
-        "synthesis.admin.users.detail",
-        "synthesis.admin.rbac.role",
-        "synthesis.admin.modules.detail",
-        "synthesis.admin.modules.maintenance",
-        "synthesis.admin.sysmap.app",
-        "synthesis.admin.sysmap.route",
-        "synthesis.admin.sysmap.region",
-        "synthesis.admin.sysmap.element",
-        "synthesis.admin.sysmap.action",
-        "synthesis.admin.audit.event",
-        "synthesis.admin.ai.overview",
-        "synthesis.admin.ai.providers",
-        "synthesis.admin.ai.provider",
-        "synthesis.admin.ai.models",
-        "synthesis.admin.ai.model",
-        "synthesis.admin.ai.agents",
-        "synthesis.admin.ai.agent",
-        "synthesis.admin.ai.prompts",
-        "synthesis.admin.ai.prompt",
-        "synthesis.admin.ai.tools",
-        "synthesis.admin.ai.tool",
-        "synthesis.admin.ai.policy",
-        "synthesis.admin.ai.quotas",
-        "synthesis.admin.ai.telemetry",
-        "synthesis.admin.ai.audit",
-        "synthesis.admin.settings.detail",
-        "synthesis.admin.notif.emails",
-        "synthesis.admin.int.detail",
-        "synthesis.system.maintenance",
-        "synthesis.system.unavailable"
+        "tmpr.account.verify-email"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "94c162ee-0191-4bf8-ab5f-17fdb11de8f5",
+      "catalogId": "b3e3854c-0f0b-4bb5-bec2-3566bf05942a",
       "workingNameCs": "AI simulátor",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "AI",
+      "area": "AI",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AI_SIMULATOR_SCENARIO_MANAGEMENT_IMPLEMENTATION_PLAN_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/care/CareSimulatorPage.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/case/care/CareSimulatorModal.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/public/ai/AiSimulatorView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AI_SIMULATOR_SCENARIO_MANAGEMENT_IMPLEMENTATION_PLAN_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/AI_SIMULATOR_SCENARIO_MANAGEMENT_IMPLEMENTATION_PLAN_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/components/care/CareSimulatorPage.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/components/case/care/CareSimulatorModal.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/components/public/ai/AiSimulatorView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         }
       ],
       "aliases": [],
@@ -1190,62 +1244,95 @@
         "tmpr.case.ai.simulator.chat",
         "tmpr.case.ai.simulator.eval"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "cb69e4f8-22d8-462d-9fd9-211fff2d4d51",
+      "catalogId": "d60cfbd4-6cf3-47a3-b4a4-26c5c54165c6",
       "workingNameCs": "Orion",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_AUDIT_CENTER_2_ORION_SAFETY_BRIDGE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6B_ORION_VISUALIZATION_POSTIMPLEMENTATION.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6B_ORION_VISUALIZATION_PREIMPLEMENTATION.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/admin/audit/OrionAssistantPanel.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/admin/orion/OrionTraceCenterPage.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_AUDIT_CENTER_2_ORION_SAFETY_BRIDGE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6B_ORION_VISUALIZATION_POSTIMPLEMENTATION.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6B_ORION_VISUALIZATION_PREIMPLEMENTATION.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/AUDIT_2026-08-29_AUDIT_CENTER_2_ORION_SAFETY_BRIDGE.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/AUDIT_2026-08-29_FAZE_6B_ORION_VISUALIZATION_POSTIMPLEMENTATION.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         }
       ],
@@ -1256,31 +1343,32 @@
         "tmpr.case.ai.orion.full",
         "tmpr.case.ai.orion.settings"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "06928f18-1122-43a0-bd00-4b1742f953f8",
+      "catalogId": "416b85ab-77d4-4814-a90e-76a1fce744e8",
       "workingNameCs": "CoParentHub/opatrovnická složka",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "CASE",
+      "area": "CoParentHub",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/pages/CoParentHubPage.tsx",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "evidenceType": "ROUTE",
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/pages/CoParentHubPage.tsx",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "evidenceType": "ROUTE",
+          "confidence": "HIGH"
         },
         {
           "source": "PUBLIC_TATOVACESTA_CZ",
@@ -1297,132 +1385,187 @@
         "CoParentHub"
       ],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "6e31eeef-f2cf-4b5c-ba25-f5146ca6ddaa",
+      "catalogId": "d1c85c4c-8be7-42fc-bcc0-5926b6f12402",
       "workingNameCs": "notifikace",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-23_GITHUB_PUSH_AUTH_FIX.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-09-03_P0_STARTUP_DB_PUSH_REMOVAL.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/PHASE_14D_GITHUB_PUSH_AUDIT_2026-08-21.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/services/emailService.ts",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-23_GITHUB_PUSH_AUTH_FIX.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-09-03_P0_STARTUP_DB_PUSH_REMOVAL.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/PHASE_14D_GITHUB_PUSH_AUDIT_2026-08-21.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/AUDIT_2026-08-23_GITHUB_PUSH_AUTH_FIX.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/PHASE_14D_GITHUB_PUSH_AUDIT_2026-08-21.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         }
       ],
       "aliases": [],
-      "currentD1CandidateIds": [
-        "tmpr.account.verify-email",
-        "synthesis.admin.notif.emails"
-      ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "bc92a356-2e21-481e-80b0-a0684ea6b024",
+      "catalogId": "6c0977f2-45f7-467e-93b2-2c2288505f46",
       "workingNameCs": "PWA",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "PLATFORM",
+      "area": "Platform",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/PHASE_17B_PWA_FOUNDATION_AUDIT_2026-08-21.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/PHASE_18_5_PWA_INSTALL_PROMPT.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "public/manifest.json",
-          "evidenceType": "CODE",
+          "evidenceType": "SEED",
           "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/common/PWAInstallPrompt.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/hooks/usePWAInstall.ts",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/PHASE_17B_PWA_FOUNDATION_AUDIT_2026-08-21.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/PHASE_18_5_PWA_INSTALL_PROMPT.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/ARCHIVE-MANIFEST.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/ARCHIVE-MANIFEST.md",
-          "evidenceType": "CODE",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/PHASE_17B_PWA_FOUNDATION_AUDIT_2026-08-21.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/PHASE_18_5_PWA_INSTALL_PROMPT.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "docs/worklog/branches/task-TMPR-NEWDEV-20260912-F1-006-manifest-cs-diagnostics.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
@@ -1430,15 +1573,15 @@
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/module-engine/src/contract/manifest.schema.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/module-engine/tests/manifest.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -1451,68 +1594,101 @@
         "synthesis.admin.pwa.admin",
         "synthesis.admin.pwa.assign"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "70bd1ec7-7d22-47d7-be47-7c8c1c1e8c88",
+      "catalogId": "5d2db054-4221-4269-8373-ca3367fd4434",
       "workingNameCs": "CMS/Puck/Tiptap",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "CMS",
+      "area": "CMS",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "audits/puck/AUDIT_PUCK_CESTA_ZAKLADATELE_2026-08-18.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "audits/registry/SOUDY_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "audits/research/DEV3_COMPLETE_FUNCTION_CONTENT_CMS_AUDIT_2026-08-22.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "audits/research/DEV3_COMPLETE_FUNCTION_CONTENT_CMS_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "audits/research/DEV3_CONTENT_CMS_INTEGRATION_AUDIT_2026-08-22.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "audits/research/DEV3_P1_P2_SEO_MENU_CMS_AUDIT_2026-08-22.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/DEV3_COMPLETE_FUNCTION_CONTENT_CMS_AUDIT_2026-08-22.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "audits/puck/AUDIT_PUCK_CESTA_ZAKLADATELE_2026-08-18.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "audits/registry/SOUDY_REGISTRY_IMPORT_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "audits/research/DEV3_COMPLETE_FUNCTION_CONTENT_CMS_AUDIT_2026-08-22.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "audits/research/DEV3_CONTENT_CMS_INTEGRATION_AUDIT_2026-08-22.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "audits/research/DEV3_P1_P2_SEO_MENU_CMS_AUDIT_2026-08-22.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/DEV3_COMPLETE_FUNCTION_CONTENT_CMS_AUDIT_2026-08-22.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/cms-to-domain.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -1520,17 +1696,9 @@
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/cms-to-project.ts",
           "evidenceType": "TEST",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "OLD_DEV4",
-          "repository": "dev4",
-          "ref": "HEAD",
-          "pathOrUrl": "packages/module-engine/src/registry/index.ts",
-          "evidenceType": "CODE",
           "confidence": "MEDIUM"
         }
       ],
@@ -1540,91 +1708,43 @@
         "CMS"
       ],
       "currentD1CandidateIds": [
-        "tmpr.public.registry.landing",
-        "tmpr.public.registry.detail",
-        "tmpr.public.registry.reviews",
-        "tmpr.public.registry.map",
         "synthesis.cms.shell",
         "synthesis.cms.dashboard",
         "synthesis.cms.search",
         "synthesis.cms.notifications",
-        "synthesis.cms.pages.tree",
-        "synthesis.cms.pages.detail",
-        "synthesis.cms.pages.editor",
-        "synthesis.cms.pages.puck",
-        "synthesis.cms.pages.tiptap",
-        "synthesis.cms.blocks.library",
-        "synthesis.cms.blocks.config",
-        "synthesis.cms.workflow.draft",
-        "synthesis.cms.workflow.review",
-        "synthesis.cms.workflow.review.detail",
-        "synthesis.cms.workflow.preview",
-        "synthesis.cms.workflow.publish",
-        "synthesis.cms.workflow.scheduled",
-        "synthesis.cms.workflow.history",
-        "synthesis.cms.workflow.versions",
-        "synthesis.cms.workflow.diff",
-        "synthesis.cms.workflow.rollback",
-        "synthesis.cms.nav.manager",
-        "synthesis.cms.nav.editor",
-        "synthesis.cms.nav.redirects",
-        "synthesis.cms.nav.redirect.editor",
-        "synthesis.cms.seo.overview",
-        "synthesis.cms.seo.editor",
-        "synthesis.cms.seo.preview",
-        "synthesis.cms.media.library",
-        "synthesis.cms.media.detail",
-        "synthesis.cms.media.upload",
-        "synthesis.cms.media.metadata",
-        "synthesis.cms.text.registry",
-        "synthesis.cms.text.editor",
-        "synthesis.cms.help.registry",
-        "synthesis.cms.help.editor",
-        "synthesis.cms.loc.overview",
-        "synthesis.cms.loc.editor",
-        "synthesis.cms.forms.list",
-        "synthesis.cms.forms.editor",
-        "synthesis.cms.forms.field",
-        "synthesis.cms.forms.preview",
-        "synthesis.cms.gov.types",
-        "synthesis.cms.gov.templates",
-        "synthesis.cms.gov.permissions",
-        "synthesis.cms.gov.workflow",
-        "synthesis.cms.gov.audit",
-        "synthesis.admin.modules.registry",
-        "synthesis.admin.settings.registry",
-        "synthesis.admin.content.registry"
+        "synthesis.cms.pages.tree"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "MEDIUM",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "dd234043-03d7-410f-a68b-e3dbc4da3a32",
+      "catalogId": "05357bd6-d248-4eed-93e2-fc6a97c929b0",
       "workingNameCs": "RBAC",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "SYSTEM",
+      "area": "Security",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/TEAM_CENTER_RBAC_DATA_ACCESS_DESIGN_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/TEAM_CENTER_SPOLEK_RBAC_DISCOVERY_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "tests/preview-rbac-synthesis.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -1632,23 +1752,23 @@
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/TEAM_CENTER_RBAC_DATA_ACCESS_DESIGN_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/TEAM_CENTER_SPOLEK_RBAC_DISCOVERY_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "tests/preview-rbac-synthesis.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -1660,95 +1780,137 @@
         "synthesis.cms.gov.permissions",
         "synthesis.admin.rbac.roles",
         "synthesis.admin.rbac.role",
-        "synthesis.admin.rbac.matrix",
-        "synthesis.admin.rbac.overrides",
-        "synthesis.admin.rbac.objects",
-        "synthesis.admin.rbac.audit",
-        "synthesis.admin.team.roles",
-        "synthesis.admin.team.volunteers",
-        "synthesis.admin.team.association",
-        "synthesis.system.denied"
+        "synthesis.admin.rbac.matrix"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "MEDIUM",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "442e4088-476c-4a76-8b21-5b641f5a2f33",
+      "catalogId": "d4dcb244-f06c-4cff-98f1-d5d64f2ff652",
       "workingNameCs": "audit",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "SYSTEM",
+      "area": "Operations",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "AUDIT_ESBIRKA_ENDPOINTS_2026-08-17.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "AUDIT_ESBIRKA_UPSTREAM_2026-08-17.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "CHANGELOG.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "app/applet/audits/PHASE_2B-1_CONTROLLED_QADASHBOARD_MIGRATION_2026-09-05.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "audits/BRANCH_FEATURE_MATRIX.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "AUDIT_ESBIRKA_ENDPOINTS_2026-08-17.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "AUDIT_ESBIRKA_UPSTREAM_2026-08-17.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "CHANGELOG.md",
-          "evidenceType": "CODE",
+          "evidenceType": "DOC",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "app/applet/audits/PHASE_2B-1_CONTROLLED_QADASHBOARD_MIGRATION_2026-09-05.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "audits/BRANCH_FEATURE_MATRIX.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "docs/audit/TMPR-NEWDEV-20260911-F1-002-R01.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "docs/audit/TMPR-NEWDEV-20260911-F1-002-R02.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "docs/audit/TMPR-NEWDEV-20260911-F1-002.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "docs/audit/TMPR-NEWDEV-20260911-F1-003-R01.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "docs/audit/TMPR-NEWDEV-20260911-F1-003-R02.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
@@ -1774,79 +1936,97 @@
         "tmpr.public.child.psychology",
         "tmpr.account.login",
         "tmpr.account.passkey.login",
-        "tmpr.case.evidence",
-        "synthesis.cms.workflow.publish",
-        "synthesis.cms.gov.audit",
-        "synthesis.admin.users.audit",
-        "synthesis.admin.rbac.audit",
-        "synthesis.admin.audit.dashboard",
-        "synthesis.admin.audit.events",
-        "synthesis.admin.audit.event",
-        "synthesis.admin.audit.search",
-        "synthesis.admin.audit.policy",
-        "synthesis.admin.audit.retention",
-        "synthesis.admin.audit.exports",
-        "synthesis.admin.audit.sinks",
-        "synthesis.admin.ai.audit",
-        "synthesis.admin.brand.logo",
-        "synthesis.admin.ops.audit"
+        "tmpr.case.evidence"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "f5b5fd01-7417-4963-bba5-c86a513266f8",
+      "catalogId": "c6292738-7b58-41b3-9a5d-5c9ef273ca14",
       "workingNameCs": "analytika",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "SYSTEM",
+      "area": "Analytics",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "audits/analytics/audit_analytics_2_0.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/ANALYTICS_2_IMPLEMENTATION_AUDIT_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/ANALYTICS_2_SECURITY_PRIVACY_AUDIT_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/ANALYTICS_2_USER_JOURNEY_AUDIT_2026-08-25.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/ANALYTICS_POST_IMPLEMENTATION_AUDIT_2026-08-25.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "audits/analytics/audit_analytics_2_0.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/ANALYTICS_2_IMPLEMENTATION_AUDIT_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/ANALYTICS_2_SECURITY_PRIVACY_AUDIT_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/ANALYTICS_2_USER_JOURNEY_AUDIT_2026-08-25.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/ANALYTICS_POST_IMPLEMENTATION_AUDIT_2026-08-25.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         }
       ],
@@ -1857,68 +2037,101 @@
         "synthesis.admin.analytics.funnels",
         "synthesis.admin.analytics.search"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "MEDIUM",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "47b1c505-e185-43d7-a879-d124cdf9f951",
+      "catalogId": "53b45d88-37b3-4466-aa86-0b4be9bbcc57",
       "workingNameCs": "Release Gate",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "SYSTEM",
+      "area": "Operations",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/ANALYTICS_RELEASE_AUDIT_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_AUDIT_CENTER_2_RELEASE_GATE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6A_UNIFIED_AI_AUDIT_OPERATIONS_POSTIMPLEMENTATION.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6_UNIFIED_AI_AUDIT_OPERATIONS_PREIMPLEMENTATION.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AUTH_PHASE_05E_DEV3_OPERATIONAL_QA_2026-08-26.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/ANALYTICS_RELEASE_AUDIT_2026-08-25.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_AUDIT_CENTER_2_RELEASE_GATE.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6A_UNIFIED_AI_AUDIT_OPERATIONS_POSTIMPLEMENTATION.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-29_FAZE_6_UNIFIED_AI_AUDIT_OPERATIONS_PREIMPLEMENTATION.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AUTH_PHASE_05E_DEV3_OPERATIONAL_QA_2026-08-26.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "docs/worklog/branches/task-TMPR-NEWDEV-20260912-F1-007-boundary-gate.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
@@ -1926,18 +2139,34 @@
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/package.json",
-          "evidenceType": "CODE",
+          "evidenceType": "SEED",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/src/ast-parser.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "packages/boundary-gate/src/classifier.ts",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "packages/boundary-gate/src/cli.ts",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         }
       ],
       "aliases": [],
@@ -1945,36 +2174,37 @@
         "synthesis.admin.ops.overview",
         "synthesis.admin.ops.gate"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "8c95aad9-ab1b-4271-a0d3-abcfec0ea8cb",
+      "catalogId": "8bc7be80-b6a6-4694-bf33-43cf074a0ddc",
       "workingNameCs": "AI Control Center",
-      "type": "FEATURE",
-      "area": "Legacy",
-      "legacyStatus": "DOCUMENTED",
+      "type": "AI",
+      "area": "AI",
+      "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/services/qa/ai/aiAnalystOrchestrator.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/services/qa/ai/synthesisMultiAIOrchestrator.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/tests/synthesisOrchestrator.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -1982,92 +2212,133 @@
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/services/qa/ai/aiAnalystOrchestrator.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/services/qa/ai/synthesisMultiAIOrchestrator.ts",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "src/tests/synthesisOrchestrator.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
+        },
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ai-context",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
         }
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "1b3beabe-8b77-4127-acea-95e244206bba",
+      "catalogId": "64ba07df-eece-4335-9b8a-0cf88334cd13",
       "workingNameCs": "Theme/Brand management",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "PLATFORM",
+      "area": "Brand",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-24_ADMIN_BRANDING_NAV_FIX.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-24_BRANDING_EDITOR.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-24_PERSONAL_THEMES.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-24_VISUAL_SVG_EDITOR.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/BRAND_ASSET_STUDIO_INVENTORY_2026-09-09.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-24_ADMIN_BRANDING_NAV_FIX.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-24_BRANDING_EDITOR.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/AUDIT_2026-08-24_PERSONAL_THEMES.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-24_VISUAL_SVG_EDITOR.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/AUDIT_2026-08-24_ADMIN_BRANDING_NAV_FIX.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/brand-leakage.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -2079,70 +2350,97 @@
         "synthesis.admin.brand.identity",
         "synthesis.admin.brand.theme",
         "synthesis.admin.brand.tokens",
-        "synthesis.admin.brand.typography",
-        "synthesis.admin.brand.logo",
-        "synthesis.admin.brand.pwa",
-        "synthesis.admin.brand.preview.resp",
-        "synthesis.admin.brand.preview.theme",
-        "synthesis.admin.brand.history",
-        "synthesis.admin.brand.restore"
+        "synthesis.admin.brand.typography"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "MEDIUM",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "c9fba4bd-c404-48e0-b3d1-e075825cb691",
+      "catalogId": "7d9cae4c-e815-438a-9ba7-b6409671a4df",
       "workingNameCs": "Team Center / dobrovolníci / spolek",
-      "type": "FEATURE",
-      "area": "Legacy",
+      "type": "ADMIN",
+      "area": "Team",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/DEV3_NAVIGATION_ADMIN_TEAMCENTER_DEPLOYMENT_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/TEAM_CENTER_PHASE_04C_IMPLEMENTATION_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/TEAM_CENTER_PHASE_04D_FINAL_SECURITY_INTEGRATION_AUDIT_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/TEAM_CENTER_PHASE_04E_PRODUCTION_READINESS_2026-08-26.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/TEAM_CENTER_RBAC_DATA_ACCESS_DESIGN_2026-08-26.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/DEV3_NAVIGATION_ADMIN_TEAMCENTER_DEPLOYMENT_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/TEAM_CENTER_PHASE_04C_IMPLEMENTATION_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/audit/TEAM_CENTER_PHASE_04D_FINAL_SECURITY_INTEGRATION_AUDIT_2026-08-26.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/TEAM_CENTER_PHASE_04E_PRODUCTION_READINESS_2026-08-26.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/TEAM_CENTER_RBAC_DATA_ACCESS_DESIGN_2026-08-26.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
@@ -2161,13 +2459,14 @@
         "synthesis.admin.team.volunteers",
         "synthesis.admin.team.association"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "731de310-6be8-4bd0-8033-748f7d3d6641",
+      "catalogId": "bb79d31b-2f39-4b81-aa15-ac838df81050",
       "workingNameCs": "životní situace",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
@@ -2182,36 +2481,77 @@
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "9b781b56-fef6-425b-85f3-fb20f09f9cc0",
+      "catalogId": "206ee5fe-9120-4a2e-bc93-1118dbabb5f6",
       "workingNameCs": "kvízy/testy",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "DOCUMENTED",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": ".coderabbit-test.md",
-          "evidenceType": "TEST",
+          "evidenceType": "DOC",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "audits/PHASE_18B_SECURE_STORAGE_TEST_REPORT.md",
-          "evidenceType": "CODE",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/TEST_WORKFLOW_VERIFICATION.md",
+          "evidenceType": "DOC",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AI_STUDIO_WRITE_TEST.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-26_PR11_P0_2_1_TEST_FIX.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": ".coderabbit-test.md",
+          "evidenceType": "DOC",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "audits/PHASE_18B_SECURE_STORAGE_TEST_REPORT.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
           "pathOrUrl": "docs/TEST_WORKFLOW_VERIFICATION.md",
           "evidenceType": "DOC",
           "confidence": "MEDIUM"
@@ -2219,31 +2559,23 @@
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": ".coderabbit-test.md",
-          "evidenceType": "TEST",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AI_STUDIO_WRITE_TEST.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3_ARCHIVE",
           "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "audits/PHASE_18B_SECURE_STORAGE_TEST_REPORT.md",
-          "evidenceType": "CODE",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/TEST_WORKFLOW_VERIFICATION.md",
-          "evidenceType": "DOC",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/AUDIT_2026-08-26_PR11_P0_2_1_TEST_FIX.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/boundary-gate.test.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -2251,7 +2583,7 @@
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/brand-leakage.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
@@ -2259,92 +2591,150 @@
         {
           "source": "OLD_DEV4",
           "repository": "dev4",
-          "ref": "HEAD",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
           "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/client-direct-db.ts",
+          "evidenceType": "TEST",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/cms-to-domain.ts",
+          "evidenceType": "TEST",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "OLD_DEV4",
+          "repository": "dev4",
+          "ref": "9761765931f6efbb9f783f9fedbbe100cdc140fa",
+          "pathOrUrl": "packages/boundary-gate/tests/fixtures/invalid/cms-to-project.ts",
           "evidenceType": "TEST",
           "confidence": "MEDIUM"
         }
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "MEDIUM",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "c4c22a67-7fed-4f8c-a0b6-f8830f4f5fe7",
+      "catalogId": "52806d56-cd23-49bf-b845-4bb853425b8e",
       "workingNameCs": "redakce/novinky",
-      "type": "FEATURE",
-      "area": "Legacy",
-      "legacyStatus": "DOCUMENTED",
+      "type": "CMS",
+      "area": "CMS",
+      "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
-          "source": "DEV3",
-          "repository": "dev3",
-          "ref": "HEAD",
-          "pathOrUrl": "synthetic-placeholder-for-redakce/novinky",
-          "evidenceType": "CODE",
-          "confidence": "LOW"
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/pribehy",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/stories",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
         }
       ],
       "aliases": [],
       "currentD1CandidateIds": [],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
     },
     {
-      "catalogId": "11f6eefe-ba35-4bdd-9c1f-a8c61bcb0a1d",
+      "catalogId": "08b3fe3b-f7e6-4ef6-aaf3-e20d225e0998",
       "workingNameCs": "nápověda/manuál",
       "type": "FEATURE",
-      "area": "Legacy",
+      "area": "Public",
       "legacyStatus": "PUBLIC_CURRENT",
       "disposition": "REVIEW",
       "evidence": [
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "docs/audit/NEWS_HELP_SUPPORT_SEED_AUDIT_2026-08-20.md",
-          "evidenceType": "DOC",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "prisma/seed-help-news.ts",
-          "evidenceType": "CODE",
+          "evidenceType": "SEED",
           "confidence": "MEDIUM"
         },
         {
           "source": "DEV3",
           "repository": "dev3",
-          "ref": "HEAD",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
           "pathOrUrl": "src/components/public/UserManualPage.tsx",
           "evidenceType": "CODE",
-          "confidence": "MEDIUM"
+          "confidence": "HIGH"
         },
         {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "docs/audit/NEWS_HELP_SUPPORT_SEED_AUDIT_2026-08-20.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/NEWS_HELP_SUPPORT_SEED_AUDIT_2026-08-20.md",
-          "evidenceType": "DOC",
-          "confidence": "MEDIUM"
-        },
-        {
-          "source": "DEV3_ARCHIVE",
-          "repository": "dev3-archive",
-          "ref": "HEAD",
-          "pathOrUrl": "prisma/seed-help-news.ts",
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/components/public/community/LegalHelpView.tsx",
           "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3",
+          "repository": "dev3",
+          "ref": "696df6255dfe1e0f1ac21a02b002999b557629e4",
+          "pathOrUrl": "src/routes/helpRoutes.ts",
+          "evidenceType": "ROUTE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "docs/audit/NEWS_HELP_SUPPORT_SEED_AUDIT_2026-08-20.md",
+          "evidenceType": "AUDIT",
           "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "file-archive/2026-09-11-dev3-cleanup/docs/audit/NEWS_HELP_SUPPORT_SEED_AUDIT_2026-08-20.md",
+          "evidenceType": "AUDIT",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "prisma/seed-help-news.ts",
+          "evidenceType": "SEED",
+          "confidence": "MEDIUM"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/components/public/UserManualPage.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
+        },
+        {
+          "source": "DEV3_ARCHIVE",
+          "repository": "dev3-archive",
+          "ref": "7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae",
+          "pathOrUrl": "src/components/public/community/LegalHelpView.tsx",
+          "evidenceType": "CODE",
+          "confidence": "HIGH"
         },
         {
           "source": "PUBLIC_TATOVACESTA_CZ",
@@ -2363,7 +2753,1768 @@
         "synthesis.cms.help.registry",
         "synthesis.cms.help.editor"
       ],
-      "notesCs": "Vygenerováno z tree/sitemap scanu."
+      "itemConfidence": "HIGH",
+      "notesCs": "Zpracováno z evidence."
+    },
+    {
+      "catalogId": "ea8108e9-57da-4cca-a07f-28c7c1552b91",
+      "workingNameCs": "Homepage",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "ffbdde13-34b5-46a9-b6dd-f77fdb203e6b",
+      "workingNameCs": "Public page: forum",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/forum",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "47f2716e-d3a9-4293-b05d-8ddf7e591a43",
+      "workingNameCs": "Public page: advice",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/advice",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "45156fa2-83d3-46be-8695-8fcc8d25030e",
+      "workingNameCs": "Public page: podpora",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/podpora",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "1bc102bd-dd78-48c5-aa52-7b4d30e870b0",
+      "workingNameCs": "Public page: support",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/support",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a97c4d23-039d-4bc8-9619-ae2964d56dbc",
+      "workingNameCs": "Public page: prava",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/prava",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "b992585b-7bb4-48b4-a95d-1396eaf45c42",
+      "workingNameCs": "Public page: rights",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/rights",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "3c242994-13e0-46ef-92ad-f78b9ef36cd3",
+      "workingNameCs": "Public page: ke-stazeni",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ke-stazeni",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "176f05ae-4f87-42e3-82ea-41251ed99710",
+      "workingNameCs": "Public page: rozchod-a-dite",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/rozchod-a-dite",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "2d762d95-598f-4c4c-84dc-8b8930d75587",
+      "workingNameCs": "Public page: ospod-a-z",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "95689044-99e6-49c8-bf69-1ec1e3565a73",
+      "workingNameCs": "Public page: dokumentace-a-dokazy",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dokumentace-a-dokazy",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "84983c57-35c4-4647-9693-651c5d24a11f",
+      "workingNameCs": "Public page: tvrzeni-druheho-rodice",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "5301f59d-4fdc-46e9-9bed-af024352b638",
+      "workingNameCs": "Public page: dite-v-konfliktu",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dite-v-konfliktu",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "2480ab5a-6b3a-4264-a6ea-130e5d8426a3",
+      "workingNameCs": "Public page: co-nedelat",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "818fe7da-10d7-456a-b28f-37094ca66c4f",
+      "workingNameCs": "Public page: komunikace",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat/komunikace",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "7dec399c-59a6-426f-b51a-f20adc22736e",
+      "workingNameCs": "Public page: predavani",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat/predavani",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "6249f589-3aab-4b72-b998-8cd85ffb3b32",
+      "workingNameCs": "Public page: dite",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat/dite",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "43f00ab1-ecf8-4d1c-9023-deb3626f3c11",
+      "workingNameCs": "Public page: osp",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat/osp",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "3f230216-4635-487e-92f4-c1e0925d6464",
+      "workingNameCs": "Public page: soud",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat/soud",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "bf048585-e11a-4731-805e-812ded330a0c",
+      "workingNameCs": "Public page: socialni-site",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/co-nedelat/socialni-site",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a64e122d-8cf2-4236-8924-d60e6532d9bb",
+      "workingNameCs": "Public page: konflikt-loajality",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dite-v-konfliktu/konflikt-loajality",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "753533bb-00fc-4f8e-bd3b-73e9736b445e",
+      "workingNameCs": "Public page: predavani",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dite-v-konfliktu/predavani",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "96b967fc-2420-48fb-94d0-a5f38c1ffda3",
+      "workingNameCs": "Public page: dite-odmita-jit",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dite-v-konfliktu/dite-odmita-jit",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "62d85f75-4af3-4428-ac80-f83dcf1c33f8",
+      "workingNameCs": "Public page: dite-nechce-k-otci",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/dite-nechce-k-otci",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a2a192e8-9e9e-497e-9b74-c728443a92c2",
+      "workingNameCs": "Public page: otec-se-nestara",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/otec-se-nestara",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "41634ac5-2152-449e-ae6e-db63b7034e84",
+      "workingNameCs": "Public page: otec-nema-cas",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/otec-nema-cas",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "777b8c4c-2eb2-40ae-a0d6-485f918bce8b",
+      "workingNameCs": "Public page: otec-nema-bydleni",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/otec-nema-bydleni",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a37a6340-3539-4148-a907-a552130f4ded",
+      "workingNameCs": "Public page: dite-je-prilis-male",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/dite-je-prilis-male",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "360fd687-0c90-4f41-879b-f8d4acd2897d",
+      "workingNameCs": "Public page: rodice-se-nedomluvi",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/rodice-se-nedomluvi",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a2a0c298-b5c0-4ad2-9fe5-ffdd5dcd78dd",
+      "workingNameCs": "Public page: otec-je-agresor",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/otec-je-agresor",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "33573eae-fd82-48e6-a2f9-1953ffdb3648",
+      "workingNameCs": "Public page: otec-neplati-alimenty",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/otec-neplati-alimenty",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "f148f346-e709-4a79-b089-8e954345ddd5",
+      "workingNameCs": "Public page: dite-ma-krouzky",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/dite-ma-krouzky",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "f965c2f7-be53-4c9d-8cb3-aec04c89fd8d",
+      "workingNameCs": "Public page: otec-chce-stridavku-pro-penize",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/otec-chce-stridavku-pro-penize",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "8e315109-3d14-4e58-b9c9-426afdfe0396",
+      "workingNameCs": "Public page: dite-je-nemocne",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/dite-je-nemocne",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "3b9326e6-f5d5-42be-b620-ebf792284985",
+      "workingNameCs": "Public page: otec-nema-zkusenosti",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/otec-nema-zkusenosti",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "f0c04cbe-5a5d-4a46-a6d5-f2062a19b7fb",
+      "workingNameCs": "Public page: soudni-znalec-nedoporucil",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/tvrzeni-druheho-rodice/soudni-znalec-nedoporucil",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "9a5326fb-2f08-4183-9f87-3b6ee66a1f09",
+      "workingNameCs": "Public page: prvni-jednani",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/prvni-jednani",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "7e34364d-8578-4ea0-9e73-4b4440a197de",
+      "workingNameCs": "Public page: co-si-pripravit",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/co-si-pripravit",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "245256d4-94fa-49a1-b93b-164d9342ac3a",
+      "workingNameCs": "Public page: domaci-setreni",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/domaci-setreni",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "44eb3d4e-0e0f-4c04-aad9-d68aa347b975",
+      "workingNameCs": "Public page: zapis-a-protokol",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/zapis-a-protokol",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "b3da5195-9dc2-4707-9808-fbc411b23850",
+      "workingNameCs": "Public page: co-aktivne-rikat",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/co-aktivne-rikat",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "e43c8b7d-42fa-4c1f-85f2-cbe34870b600",
+      "workingNameCs": "Public page: co-nerikat",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/co-nerikat",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "6cc93bc3-1090-41fb-a0e4-abbecec46f4e",
+      "workingNameCs": "Public page: jak-reagovat",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/jak-reagovat",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "eeaee8c3-89ba-4c8a-98a7-406898c9c63b",
+      "workingNameCs": "Public page: kolizni-opatrovnik",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/kolizni-opatrovnik",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "f96cba4c-62db-4da8-9c22-eb717339b991",
+      "workingNameCs": "Public page: stiznost-175",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ospod-a-z/stiznost-175",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "29e5e047-e33c-4e71-a22e-3fbb23f08c53",
+      "workingNameCs": "Public page: jak-dokumentovat",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dokumentace-a-dokazy/jak-dokumentovat",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a2553abe-e854-4ccc-b228-4b21b90be5e8",
+      "workingNameCs": "Public page: nahravky",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dokumentace-a-dokazy/nahravky",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "68fc86ca-5c89-498d-a2eb-d9886770bd63",
+      "workingNameCs": "Public page: komunikace",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dokumentace-a-dokazy/komunikace",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "3de16976-8f5c-4668-9351-0ef90089cde8",
+      "workingNameCs": "Public page: svedci",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dokumentace-a-dokazy/svedci",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "9afe0dfe-b208-4b1b-b6c6-8b526959e79f",
+      "workingNameCs": "Public page: co-nedelat",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dokumentace-a-dokazy/co-nedelat",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "7d15af62-69be-4aec-82bd-2941f21ff8a3",
+      "workingNameCs": "Public page: state-laws",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/state-laws",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "5b4f575d-5dcd-4b2b-89a6-8c3b04dfddf8",
+      "workingNameCs": "Public page: state-statistics",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/state-statistics",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "7f33417c-f46f-4ac8-ab74-6a1f8744cf54",
+      "workingNameCs": "Public page: pripadova-databaze",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/pripadova-databaze",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "3f086e94-930d-4971-ae7e-ae5cc2c91190",
+      "workingNameCs": "Public page: videoteka",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/videoteka",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "b3899e26-2c29-4ca8-9a75-92afb08a8691",
+      "workingNameCs": "Public page: vzdelavani",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/vzdelavani",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "1b40fc0c-cda9-4fe8-8e75-08f1f907b83a",
+      "workingNameCs": "Public page: legal-wiki",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/legal-wiki",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "6056e7a1-81c9-44a0-b2c7-2cea042d3d18",
+      "workingNameCs": "Public page: cesta-zakladatele",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/cesta-zakladatele",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "615a376b-ed65-43dd-bfe2-953a9310f14d",
+      "workingNameCs": "Public page: profile",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/profile",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "73de0614-1aa5-48c3-a708-ed746a00f24b",
+      "workingNameCs": "Public page: ai-guide",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ai-guide",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "2e16e2a9-0546-4796-9cb3-b5dba3496762",
+      "workingNameCs": "Public page: ai-case-manager",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ai-case-manager",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "33c32ceb-8473-42ec-b95e-44edfa1d824c",
+      "workingNameCs": "Public page: centrum-formularu",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/centrum-formularu",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a16099fd-a74c-4a0d-97a3-fd33149006b3",
+      "workingNameCs": "Public page: news",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/news",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "5203960e-a612-4d5a-9c6d-bcef38da9a92",
+      "workingNameCs": "Public page: synthesis-hub",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/synthesis-hub",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "6f2f797b-f224-47e7-95d7-d7a4282ec107",
+      "workingNameCs": "Public page: sitemap",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/sitemap",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "adec9099-b810-4249-b0e2-2c77454f2cd9",
+      "workingNameCs": "Public page: partneri",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/partneri",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "5ff72591-b717-4d90-8633-920f86d48b5d",
+      "workingNameCs": "Public page: sponzori",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/sponzori",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "81fb22ba-4897-4d15-b503-b4032baa240f",
+      "workingNameCs": "Public page: zasady-ochrany-osobnich-udaju",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/zasady-ochrany-osobnich-udaju",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "446a8cec-5a97-4361-ba21-a936971c0f2e",
+      "workingNameCs": "Public page: home",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/home",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "e5ebae1d-5fea-416f-a449-6fa9cdaa0651",
+      "workingNameCs": "Public page: domu",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/domu",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "b7a83128-f13f-413b-878c-4f9d383fda7a",
+      "workingNameCs": "Public page: clanky",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/clanky",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "a699b76b-8235-4038-8e0f-b0c87e3ea857",
+      "workingNameCs": "Public page: gdpr",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/gdpr",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "afa2e8de-1e57-4e7b-a2e3-6bb76eef4699",
+      "workingNameCs": "Public page: about",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/about",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "6099eadc-d625-4754-9322-c8cd5696bdfc",
+      "workingNameCs": "Public page: o-projektu",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/o-projektu",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "5911b64c-306c-4238-97b7-33a6cf55fda0",
+      "workingNameCs": "Public page: o-nas",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/o-nas",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "3ec63b36-6218-49f5-9966-6558af71eadc",
+      "workingNameCs": "Public page: faq",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/faq",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "7112e905-af9c-43d7-a17a-5fd837a6ffcf",
+      "workingNameCs": "Public page: kontakt",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/kontakt",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "30bdef30-5f02-4766-abf1-7e0745655623",
+      "workingNameCs": "Public page: podminky-uzivani",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/podminky-uzivani",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "116a7615-3b04-4914-878a-be4ed1981a32",
+      "workingNameCs": "Public page: dobrovolnictvi",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/dobrovolnictvi",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "70e2dd65-e643-4c53-a1fa-1cb2b599e763",
+      "workingNameCs": "Public page: ai-prohlaseni",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/ai-prohlaseni",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
+    },
+    {
+      "catalogId": "5dc345d8-12a3-444a-8d51-31444dc6faf0",
+      "workingNameCs": "Public page: podporte-nas",
+      "type": "CONTENT",
+      "area": "Public",
+      "legacyStatus": "PUBLIC_CURRENT",
+      "disposition": "REVIEW",
+      "evidence": [
+        {
+          "source": "PUBLIC_TATOVACESTA_CZ",
+          "repository": null,
+          "ref": "LIVE",
+          "pathOrUrl": "https://www.tatovacesta.cz/podporte-nas",
+          "evidenceType": "PUBLIC_PAGE",
+          "confidence": "HIGH"
+        }
+      ],
+      "aliases": [],
+      "currentD1CandidateIds": [],
+      "itemConfidence": "HIGH",
+      "notesCs": "Veřejná stránka z mapy."
     }
   ]
 }

@@ -165,40 +165,31 @@ D10 — Mobile/Tablet/Desktop QA
 D11 — Design consistency audit
 D12 — final blueprint checkpoint
 
-COMMAND ID: TMPR-NEWSTART-DESIGN-001-B0-B
-RECONCILIATION STATUS: SOURCE_CATALOG_CREATED
-SOURCES VERIFIED:
-- DEV3 @ 696df6255dfe1e0f1ac21a02b002999b557629e4
-- DEV3_ARCHIVE @ 7f43f59231eccaa1d1e1f2ff4fd26614615ea1ae
-- OLD_DEV4 @ 9761765931f6efbb9f783f9fedbbe100cdc140fa
-- PUBLIC_TATOVACESTA_CZ
+COMMAND ID: TMPR-NEWSTART-DESIGN-001-B0-B-R01
+RECOVERY REASON: Independent review found non-deterministic refs, incorrect classification and false-positive D1 matching.
+B0-B STATUS: RECOVERED_PASS
 D1 STATUS: CHECKPOINT_SAVED_NOT_FINAL
 
 COMPLETED:
-- design task bootstrap
-- D1: Vytvořen Screen & Surface Inventory (design-manifest.json, screen-inventory.json, coverage-matrix.md, README.md) v design/blueprint/v1/. Definováno >140 ploch, s plným typováním vlastností a metadat pro System Map. Prošel automatický validator.
-- legacy repository evidence scan
-- public sitemap evidence scan
-- feature/content catalog
-- aliases normalization
-- preliminary D1 cross-reference
-- potential gap report
+- exact legacy SHA evidence
+- evidence type correction
+- meaningful type/area classification
+- public URL accountability
+- legacy route/page accountability
+- semantic D1 candidate matching
+- false-positive removal
+- source report hardening
 
 REMAINING:
 - authoritative D1 gap analysis
-- missing surface additions
-- duplicate/merge decisions
-- final D1 revalidation
-- D2 through D12
-
-BLOCKERS/RISKS:
-None
+- D1 additions/merges
+- final D1 validation
 
 EXACT NEXT STEP:
 TMPR-NEWSTART-DESIGN-001-B0-C
 
 WORKLOG CHECKPOINT:
-LEGACY_CATALOG_PASS
+LEGACY_CATALOG_RECOVERY_PASS
 
 SYSTEM MAP CHECKPOINT:
 RECONCILIATION_PENDING
